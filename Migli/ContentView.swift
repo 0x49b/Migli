@@ -39,6 +39,12 @@ struct ARViewContainer: UIViewRepresentable {
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         ContentView()
+        
+        Ellipse()
+            .fill(Color.blue)
+            .padding(15.0)
+            .offset(x:130, y: 350)
+            .frame(width: 100, height: 100)
     }
 }
 #endif
