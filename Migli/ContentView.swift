@@ -16,15 +16,44 @@ struct ContentView : View {
 }
 
 struct StartScreen : View {
+    @State var showSheetView = false
+    
     var body: some View {
-        Button(action: {
-            print("Hello World tapped!")
-        }) {
-            Image("migli-smile")
-                .renderingMode(.original)
-                .resizable()
-                .scaledToFit()
-        }.position(x: 120, y: 120)
+        NavigationView {
+            ZStack {
+                
+                VStack(alignment:.trailing) {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            self.showSheetView.toggle()
+                        }) {
+                            Image("migli-smile")
+                                .renderingMode(.original)
+                        }.padding()
+                    }
+                }
+            }
+        }.sheet(isPresented: $showSheetView) {
+            SheetView(showSheetView: self.$showSheetView)
+        }
+    }
+}
+
+struct SheetView: View {
+    @Binding var showSheetView: Bool
+
+    var body: some View {
+        NavigationView {
+            Text("Migli assistant")
+            .navigationBarTitle(Text("Migli assistant"), displayMode: .inline)
+                .navigationBarItems(trailing: Button(action: {
+                    self.showSheetView = false
+                }) {
+                    Text("Done").bold()
+                })
+        }
     }
 }
 
