@@ -11,7 +11,20 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        return StartScreen()
+    }
+}
+
+struct StartScreen : View {
+    var body: some View {
+        Button(action: {
+            print("Hello World tapped!")
+        }) {
+            Image("migli-smile")
+                .renderingMode(.original)
+                .resizable()
+                .scaledToFit()
+        }.position(x: 120, y: 120)
     }
 }
 
