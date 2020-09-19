@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LoadingDots: View {
     
-    @State private var shouldAnimate = true // false
+    @State private var shouldAnimate = false
     
     var body: some View {
         HStack {
