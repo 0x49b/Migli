@@ -11,11 +11,38 @@ import AVFoundation
 
 struct AssistantView: View {
     @Binding var showAssistantView: Bool
+    @State private var inputString: String = ""
     let assistantSynth = AVSpeechSynthesizer()
 
     var body: some View {
         NavigationView {
-            Text("Migli assistant")
+            VStack{
+                
+                HStack{
+                    Text("Migli")
+                    VStack{
+                        HStack{
+                            TextField("test", text: $inputString)
+                                .textFieldStyle(RoundedBorderTextFieldStyle())
+                                .padding(.horizontal)
+                            Button(action: {
+                                print("Button pressed")
+                            }) {
+                                Image(systemName: "magnifyingglass")
+                            }
+                        }
+                        HStack{
+                            Spacer()
+                            Button(action: {
+                                print("Button pressed")
+                            }) {
+                                Image(systemName: "mic.fill")
+                            }
+                        }
+                    }
+                }.padding()
+                Spacer()
+            }
             .navigationBarTitle(Text("Migli assistant"), displayMode: .inline)
                 .navigationBarItems(trailing: Button(action: {
                     self.showAssistantView = false
