@@ -62,13 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				476787C325155F5000E5512F /* AppDelegate.swift */,
+				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
 				476787C525155F5000E5512F /* ContentView.swift */,
 				476787C725155F5000E5512F /* Experience.rcproject */,
 				1771B2B52515ACB4007B7B57 /* Assets.xcassets */,
 				476787CE25155F5100E5512F /* LaunchScreen.storyboard */,
 				476787D125155F5100E5512F /* Info.plist */,
 				476787CB25155F5100E5512F /* Preview Content */,
-				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
 			);
 			path = Migli;
 			sourceTree = "<group>";

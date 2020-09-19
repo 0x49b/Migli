@@ -7,9 +7,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct AssistantView: View {
     @Binding var showAssistantView: Bool
+    let assistantSynth = AVSpeechSynthesizer()
 
     var body: some View {
         NavigationView {
@@ -20,6 +22,15 @@ struct AssistantView: View {
                 }) {
                     Text("Done").bold()
                 })
-        }
+        }.onAppear(perform: greeting)
+    }
+    
+    private func greeting() {
+        let greet = "Hello, I'm Migli, your personal Migros assistant. How can I help you?"
+        self.speech(text: greet)
+    }
+    
+    private func speech(text: String) {
+        assistantSynth.speak(AVSpeechUtterance(string: text))
     }
 }
