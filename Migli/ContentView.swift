@@ -16,7 +16,7 @@ struct ContentView : View {
 }
 
 struct StartScreen : View {
-    @State var showSheetView = false
+    @State var showAssistantView = false
     
     var body: some View {
         NavigationView {
@@ -27,7 +27,7 @@ struct StartScreen : View {
                     HStack {
                         Spacer()
                         Button(action: {
-                            self.showSheetView.toggle()
+                            self.showAssistantView.toggle()
                         }) {
                             Image("migli-smile")
                                 .renderingMode(.original)
@@ -35,21 +35,21 @@ struct StartScreen : View {
                     }
                 }
             }
-        }.sheet(isPresented: $showSheetView) {
-            SheetView(showSheetView: self.$showSheetView)
+        }.sheet(isPresented: $showAssistantView) {
+            AssistantView(showAssistantView: self.$showAssistantView)
         }
     }
 }
 
-struct SheetView: View {
-    @Binding var showSheetView: Bool
+struct AssistantView: View {
+    @Binding var showAssistantView: Bool
 
     var body: some View {
         NavigationView {
             Text("Migli assistant")
             .navigationBarTitle(Text("Migli assistant"), displayMode: .inline)
                 .navigationBarItems(trailing: Button(action: {
-                    self.showSheetView = false
+                    self.showAssistantView = false
                 }) {
                     Text("Done").bold()
                 })
