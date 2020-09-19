@@ -11,6 +11,9 @@
 		1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B52515ACB4007B7B57 /* Assets.xcassets */; };
 		1792E416251600DB00EDBFDD /* ice_tea.json in Resources */ = {isa = PBXBuildFile; fileRef = 1792E415251600DB00EDBFDD /* ice_tea.json */; };
 		1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E4182516012F00EDBFDD /* LoadingDots.swift */; };
+		1792E41E251604B100EDBFDD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1792E41D251604B100EDBFDD /* Colors.xcassets */; };
+		1792E422251605D600EDBFDD /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E421251605D600EDBFDD /* ColorManager.swift */; };
+		1792E4262516071300EDBFDD /* SynthLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E4252516071300EDBFDD /* SynthLoaderView.swift */; };
 		476787C425155F5000E5512F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476787C325155F5000E5512F /* AppDelegate.swift */; };
 		476787C625155F5000E5512F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476787C525155F5000E5512F /* ContentView.swift */; };
 		476787C825155F5000E5512F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 476787C725155F5000E5512F /* Experience.rcproject */; };
@@ -24,6 +27,9 @@
 		1771B2B52515ACB4007B7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1792E415251600DB00EDBFDD /* ice_tea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ice_tea.json; sourceTree = "<group>"; };
 		1792E4182516012F00EDBFDD /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
+		1792E41D251604B100EDBFDD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1792E421251605D600EDBFDD /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		1792E4252516071300EDBFDD /* SynthLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthLoaderView.swift; sourceTree = "<group>"; };
 		476787C025155F5000E5512F /* Migli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476787C325155F5000E5512F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476787C525155F5000E5512F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,8 +75,11 @@
 				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
 				476787C525155F5000E5512F /* ContentView.swift */,
 				1792E4182516012F00EDBFDD /* LoadingDots.swift */,
+				1792E4252516071300EDBFDD /* SynthLoaderView.swift */,
+				1792E421251605D600EDBFDD /* ColorManager.swift */,
 				476787C725155F5000E5512F /* Experience.rcproject */,
 				1771B2B52515ACB4007B7B57 /* Assets.xcassets */,
+				1792E41D251604B100EDBFDD /* Colors.xcassets */,
 				476787CE25155F5100E5512F /* LaunchScreen.storyboard */,
 				476787D125155F5100E5512F /* Info.plist */,
 				1792E415251600DB00EDBFDD /* ice_tea.json */,
@@ -148,6 +157,7 @@
 				476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */,
 				476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */,
 				1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */,
+				1792E41E251604B100EDBFDD /* Colors.xcassets in Resources */,
 				1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */,
 				1792E416251600DB00EDBFDD /* ice_tea.json in Resources */,
 			);
@@ -160,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1792E4262516071300EDBFDD /* SynthLoaderView.swift in Sources */,
 				476787C625155F5000E5512F /* ContentView.swift in Sources */,
 				476787C425155F5000E5512F /* AppDelegate.swift in Sources */,
 				476787C825155F5000E5512F /* Experience.rcproject in Sources */,
+				1792E422251605D600EDBFDD /* ColorManager.swift in Sources */,
 				47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */,
 				1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */,
 			);
