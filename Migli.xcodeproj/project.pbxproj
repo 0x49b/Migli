@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		174C3E0F25163D1A00E85E83 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E0E25163D1A00E85E83 /* products.json */; };
 		174C3E12251655E300E85E83 /* migli_ar_mock.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E11251655E300E85E83 /* migli_ar_mock.mp4 */; };
 		174C3E1425165A6E00E85E83 /* migli_emotions_gif in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E1325165A6E00E85E83 /* migli_emotions_gif */; };
+		174C3E1725165C6400E85E83 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E1625165C6400E85E83 /* m.png */; };
+		174C3E1925165E1C00E85E83 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E1825165E1C00E85E83 /* SplashView.swift */; };
+		174C3E1B25165F3A00E85E83 /* migli_font.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E1A25165F3A00E85E83 /* migli_font.png */; };
+		174C3E1D2516627F00E85E83 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E1C2516627F00E85E83 /* Podfile */; };
 		1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B12515AA86007B7B57 /* migli-smile.png */; };
 		1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B52515ACB4007B7B57 /* Assets.xcassets */; };
 		1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E4182516012F00EDBFDD /* LoadingDots.swift */; };
@@ -26,6 +30,7 @@
 		476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476787CC25155F5100E5512F /* Preview Assets.xcassets */; };
 		476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476787CE25155F5100E5512F /* LaunchScreen.storyboard */; };
 		47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FBF52515EA7E0085F3BB /* AssistantView.swift */; };
+		554A5673DBFA9D40CB73324D /* Pods_Migli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C0AAB86F3B9ABAE5EEB833 /* Pods_Migli.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,10 @@
 		174C3E0E25163D1A00E85E83 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		174C3E11251655E300E85E83 /* migli_ar_mock.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = migli_ar_mock.mp4; sourceTree = "<group>"; };
 		174C3E1325165A6E00E85E83 /* migli_emotions_gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = migli_emotions_gif; sourceTree = "<group>"; };
+		174C3E1625165C6400E85E83 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		174C3E1825165E1C00E85E83 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		174C3E1A25165F3A00E85E83 /* migli_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = migli_font.png; sourceTree = "<group>"; };
+		174C3E1C2516627F00E85E83 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		1771B2B12515AA86007B7B57 /* migli-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "migli-smile.png"; sourceTree = "<group>"; };
 		1771B2B52515ACB4007B7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1792E4182516012F00EDBFDD /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
@@ -50,6 +59,9 @@
 		476787CF25155F5100E5512F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476787D125155F5100E5512F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F7FBF52515EA7E0085F3BB /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
+		6DD27F60EBBA714286B4AA39 /* Pods-Migli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migli.debug.xcconfig"; path = "Target Support Files/Pods-Migli/Pods-Migli.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C0AAB86F3B9ABAE5EEB833 /* Pods_Migli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08295B794856B0CC21993CD /* Pods-Migli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migli.release.xcconfig"; path = "Target Support Files/Pods-Migli/Pods-Migli.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554A5673DBFA9D40CB73324D /* Pods_Migli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +85,24 @@
 			path = mov;
 			sourceTree = "<group>";
 		};
+		174C3E1525165C5000E85E83 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				174C3E1A25165F3A00E85E83 /* migli_font.png */,
+				174C3E1625165C6400E85E83 /* m.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		476787B725155F5000E5512F = {
 			isa = PBXGroup;
 			children = (
+				174C3E1C2516627F00E85E83 /* Podfile */,
 				1771B2B12515AA86007B7B57 /* migli-smile.png */,
 				476787C225155F5000E5512F /* Migli */,
 				476787C125155F5000E5512F /* Products */,
+				8AD3E0FBBB5A6D1D3E020D72 /* Pods */,
+				EC014E4B20EAF7159D985A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +117,7 @@
 		476787C225155F5000E5512F /* Migli */ = {
 			isa = PBXGroup;
 			children = (
+				174C3E1525165C5000E85E83 /* img */,
 				174C3E10251655B200E85E83 /* mov */,
 				174C3E0E25163D1A00E85E83 /* products.json */,
 				476787C325155F5000E5512F /* AppDelegate.swift */,
@@ -110,6 +136,7 @@
 				174C3E0825163B0C00E85E83 /* ProductStruct.swift */,
 				174C3E0A25163B4600E85E83 /* BundleDecodable.swift */,
 				174C3E0C25163BA800E85E83 /* Check.swift */,
+				174C3E1825165E1C00E85E83 /* SplashView.swift */,
 			);
 			path = Migli;
 			sourceTree = "<group>";
@@ -122,6 +149,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8AD3E0FBBB5A6D1D3E020D72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD27F60EBBA714286B4AA39 /* Pods-Migli.debug.xcconfig */,
+				F08295B794856B0CC21993CD /* Pods-Migli.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC014E4B20EAF7159D985A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0AAB86F3B9ABAE5EEB833 /* Pods_Migli.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 476787D425155F5100E5512F /* Build configuration list for PBXNativeTarget "Migli" */;
 			buildPhases = (
+				3D3CE24E907D038CF856A70C /* [CP] Check Pods Manifest.lock */,
 				476787BC25155F5000E5512F /* Sources */,
 				476787BD25155F5000E5512F /* Frameworks */,
 				476787BE25155F5000E5512F /* Resources */,
+				D5887257EB8D584FEE2C6944 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,18 +226,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174C3E1725165C6400E85E83 /* m.png in Resources */,
 				174C3E12251655E300E85E83 /* migli_ar_mock.mp4 in Resources */,
 				476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */,
 				476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */,
 				1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */,
 				174C3E0F25163D1A00E85E83 /* products.json in Resources */,
 				1792E41E251604B100EDBFDD /* Colors.xcassets in Resources */,
+				174C3E1B25165F3A00E85E83 /* migli_font.png in Resources */,
 				174C3E1425165A6E00E85E83 /* migli_emotions_gif in Resources */,
 				1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */,
+				174C3E1D2516627F00E85E83 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3CE24E907D038CF856A70C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Migli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5887257EB8D584FEE2C6944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migli/Pods-Migli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Migli/Pods-Migli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Migli/Pods-Migli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		476787BC25155F5000E5512F /* Sources */ = {
@@ -203,6 +294,7 @@
 				476787C625155F5000E5512F /* ContentView.swift in Sources */,
 				476787C425155F5000E5512F /* AppDelegate.swift in Sources */,
 				174C3E0D25163BA800E85E83 /* Check.swift in Sources */,
+				174C3E1925165E1C00E85E83 /* SplashView.swift in Sources */,
 				476787C825155F5000E5512F /* Experience.rcproject in Sources */,
 				1792E422251605D600EDBFDD /* ColorManager.swift in Sources */,
 				47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */,
@@ -342,6 +434,7 @@
 		};
 		476787D525155F5100E5512F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD27F60EBBA714286B4AA39 /* Pods-Migli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -364,6 +457,7 @@
 		};
 		476787D625155F5100E5512F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08295B794856B0CC21993CD /* Pods-Migli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";

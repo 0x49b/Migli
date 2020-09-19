@@ -73,7 +73,7 @@ struct AssistantView: View {
                 }.padding()
                 Spacer()
             }
-            .navigationBarTitle(Text("Migli assistant"), displayMode: .inline)
+            .navigationBarTitle(Text("Migli"), displayMode: .inline)
                 .navigationBarItems(trailing: Button(action: {
                     self.showAssistantView = false
                 }) {
