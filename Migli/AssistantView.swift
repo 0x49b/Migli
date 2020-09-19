@@ -26,7 +26,7 @@ struct AssistantView: View {
     }
     
     private func greeting() {
-        let greet = "Hello, I'm Migli, your virtual Migros assistant. How can I help you?"
+        let greet = "Hello, I'm Migli, your virtual Migro assistant. How can I help you?"
         self.speech(text: greet)
     }
     
@@ -36,7 +36,7 @@ struct AssistantView: View {
         let utterance = AVSpeechUtterance(string: text)
             utterance.voice = AVSpeechSynthesisVoice(identifier: "com.apple.ttsbundle.Daniel-compact")
             utterance.rate = 0.5
-            // utterance.pitchMultiplier = 0.5
+            utterance.pitchMultiplier = 1.5
             utterance.preUtteranceDelay = 0
             utterance.volume = 1
         
