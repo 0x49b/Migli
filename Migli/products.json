@@ -1,0 +1,3427 @@
+{
+  "total_hits": 154,
+  "facets": {
+    "purchasable_online": {
+      "name": "Online erhältlich",
+      "terms": [
+        {
+          "term": "T",
+          "count": 88,
+          "name": "Ja",
+          "active": false,
+          "slug": "ja"
+        },
+        {
+          "term": "F",
+          "count": 66,
+          "name": "Nein",
+          "active": false,
+          "slug": "nein"
+        }
+      ]
+    },
+    "retailer": {
+      "name": "Erhältlich bei",
+      "terms": [
+        {
+          "term": "melectronics",
+          "count": 54,
+          "name": "melectronics",
+          "active": false,
+          "slug": "melectronics"
+        },
+        {
+          "term": "sportxx",
+          "count": 49,
+          "name": "SportXX",
+          "active": false,
+          "slug": "sportxx"
+        },
+        {
+          "term": "supermarkt",
+          "count": 41,
+          "name": "Supermarkt",
+          "active": false,
+          "slug": "supermarkt"
+        },
+        {
+          "term": "leshop",
+          "count": 28,
+          "name": "LeShop.ch",
+          "active": false,
+          "slug": "leshop"
+        },
+        {
+          "term": "doitgarden",
+          "count": 11,
+          "name": "Do It + Garden",
+          "active": false,
+          "slug": "doitgarden"
+        }
+      ]
+    },
+    "discount": {
+      "name": "Aktionen & Neuheiten",
+      "terms": []
+    },
+    "label": {
+      "name": "Labels",
+      "terms": [
+        {
+          "term": "L57",
+          "count": 12,
+          "name": "V-vegan",
+          "active": false,
+          "slug": "v-vegan"
+        },
+        {
+          "term": "L53",
+          "count": 7,
+          "name": "Swissness",
+          "active": false,
+          "slug": "swissness"
+        },
+        {
+          "term": "L34",
+          "count": 2,
+          "name": "UTZ",
+          "active": false,
+          "slug": "utz"
+        },
+        {
+          "term": "L15",
+          "count": 1,
+          "name": "aha!",
+          "active": false,
+          "slug": "aha"
+        }
+      ]
+    },
+    "brand": {
+      "name": "Marken",
+      "terms": [
+        {
+          "term": "W48",
+          "count": 32,
+          "name": "TEAC",
+          "active": false,
+          "slug": "teac"
+        },
+        {
+          "term": "MI1",
+          "count": 14,
+          "name": "K2",
+          "active": false,
+          "slug": "k2"
+        },
+        {
+          "term": "MK2",
+          "count": 12,
+          "name": "Lowa",
+          "active": false,
+          "slug": "lowa"
+        },
+        {
+          "term": "MP4",
+          "count": 12,
+          "name": "Rollerblade",
+          "active": false,
+          "slug": "rollerblade"
+        },
+        {
+          "term": "MD9",
+          "count": 9,
+          "name": "Exel",
+          "active": false,
+          "slug": "exel"
+        },
+        {
+          "term": "R07",
+          "count": 8,
+          "name": "YOU",
+          "active": false,
+          "slug": "you"
+        },
+        {
+          "term": "G99",
+          "count": 7,
+          "name": "Coco Ice-Land",
+          "active": false,
+          "slug": "coco-ice-land"
+        },
+        {
+          "term": "068",
+          "count": 4,
+          "name": "M-Classic",
+          "active": false,
+          "slug": "m-classic"
+        },
+        {
+          "term": "FU7",
+          "count": 3,
+          "name": "Wunderbaum",
+          "active": false,
+          "slug": "wunderbaum"
+        },
+        {
+          "term": "MGA",
+          "count": 3,
+          "name": "Microsoft",
+          "active": false,
+          "slug": "microsoft"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "id": "665878300000",
+      "language": "de",
+      "name": "D-C-Fix Glasfolie statisch haftend Ice Cube",
+      "slug": "d-c-fix-glasfolie-statisch-haftend-ice-cube",
+      "boss_number": "211029120520",
+      "description": {
+        "text": "Ob als Sichtschutzfolie oder zur Dekoration, bedruckt oder geprägt, die d-c-fix® static Glasfolien lassen sich für die Umsetzung neuer Ideen dank statischer Haftung ganz ohne Kleber beliebig oft wiederverwenden und sind dabei noch besonders einfach anzubringen. \n\nAnwendung\nSie können die statisch haftende Fensterfolie einfach mit handelsüblichen nicht scheuernden Reinigungsmitteln behandeln. Verwenden Sie ein weiches Tuch, damit Kratzer auf der Folienoberfläche vermieden werden.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "4007386291929"
+      ],
+      "brand": {
+        "id": "C80",
+        "name": "D-C-Fix",
+        "slug": "d-c-fix",
+        "image": {
+          "original": "https://image.migros.ch/original/5a16dc090a91c26fcb388cd8a0524d1dd8fcbeeb/d-c-fix.jpg",
+          "stack": "https://image.migros.ch/{stack}/5a16dc090a91c26fcb388cd8a0524d1dd8fcbeeb/d-c-fix.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "DOIT_SHOP_CAT_statischhaftendeFolien_Dekofolien_Malen_BauenHeimwerken",
+          "name": "statisch haftende Folien",
+          "slug": "do-it-garden/bauen-heimwerken/malen/dekofolien/statisch-haftende-folien",
+          "visible": true,
+          "parent_code": "DOIT_SHOP_CAT_Dekofolien_Malen_BauenHeimwerken",
+          "level": 5
+        },
+        {
+          "code": "DOIT_SHOP_CAT_Dekofolien_Malen_BauenHeimwerken",
+          "name": "Dekofolien",
+          "slug": "do-it-garden/bauen-heimwerken/malen/dekofolien",
+          "visible": true,
+          "parent_code": "DOIT_SHOP_CAT_Malen_BauenHeimwerken",
+          "level": 4
+        },
+        {
+          "code": "DOIT_SHOP_CAT_Malen_BauenHeimwerken",
+          "name": "Malen",
+          "slug": "do-it-garden/bauen-heimwerken/malen",
+          "visible": true,
+          "parent_code": "DOIT_SHOP_CAT_BauenHeimwerken",
+          "level": 3
+        },
+        {
+          "code": "DOIT_SHOP_CAT_BauenHeimwerken",
+          "name": "Bauen + Heimwerken",
+          "slug": "do-it-garden/bauen-heimwerken",
+          "visible": true,
+          "parent_code": "BeSS_05",
+          "level": 2
+        },
+        {
+          "code": "BeSS_05",
+          "name": "Do it + Garden",
+          "slug": "do-it-garden",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "doit_anwendungsbereich",
+          "label": "Anwendungsbereich",
+          "values": [
+            {
+              "value_code": "DOIT_anwendungsbereich_innen",
+              "value": "Innen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "doit_gewicht",
+          "label": "Gewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_0.21",
+              "value": "0.21 kg",
+              "numeric_value": 0.21
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "kg",
+          "unit": "Kilogramm",
+          "unit_symbol": "kg"
+        },
+        {
+          "label_code": "doit_garantie",
+          "label": "M Garantie",
+          "values": [
+            {
+              "value_code": "DOIT_M-Garantie_2Jahre",
+              "value": "2 Jahre"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "doit_breite",
+          "label": "Breite",
+          "values": [
+            {
+              "value_code": "NUMERIC_45",
+              "value": "45 cm",
+              "numeric_value": 45
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "cm",
+          "unit": "Zentimeter",
+          "unit_symbol": "cm"
+        },
+        {
+          "label_code": "doit_laenge",
+          "label": "Länge",
+          "values": [
+            {
+              "value_code": "NUMERIC_200",
+              "value": "200 cm",
+              "numeric_value": 200
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "cm",
+          "unit": "Zentimeter",
+          "unit_symbol": "cm"
+        },
+        {
+          "label_code": "doit_hoehe",
+          "label": "Höhe",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1 mm",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "mm",
+          "unit": "Milimeter",
+          "unit_symbol": "mm"
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/cb0a7a6da41ae5aea8f9f4549fc100bb34ce78fd/d-c-fix-glasfolie-statisch-haftend-ice-cube.jpg",
+        "stack": "https://image.migros.ch/{stack}/cb0a7a6da41ae5aea8f9f4549fc100bb34ce78fd/d-c-fix-glasfolie-statisch-haftend-ice-cube.jpg"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_RETURNABLE",
+          "label": "Rückgabe",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "true",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "NORM",
+              "value": "Normalposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "DOIT"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRESENTATION",
+          "values": [
+            {
+              "value_code": "L",
+              "value": "liegend"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "DOIT",
+              "value": "Doit+Garden  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "D",
+              "value": "DoIt + Garden"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "51437",
+              "value": "FOLIEN"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/665878300000",
+          "name": "migros.ch",
+          "canonical": "https://www.doitgarden.ch/de/p/665878300000/d-c-fix-glasfolie-statisch-haftend-ice-cube",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/665878300000",
+          "name": "Migipedia",
+          "canonical": "https://www.doitgarden.ch/de/p/665878300000/d-c-fix-glasfolie-statisch-haftend-ice-cube",
+          "type": "info",
+          "purchasable": false
+        },
+        "doitgarden": {
+          "url": "https://www.doitgarden.ch/de/p/665878300000/d-c-fix-glasfolie-statisch-haftend-ice-cube",
+          "name": "Do It + Garden",
+          "canonical": "https://www.doitgarden.ch/de/p/665878300000/d-c-fix-glasfolie-statisch-haftend-ice-cube",
+          "type": "shop",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-08T16:21:19+0200",
+      "receipt_text": "Static Ice Cube",
+      "price": {
+        "valid_from": "2020-04-21T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 5.95,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false,
+          "display_quantity": "200x45cm"
+        }
+      },
+      "retailer": {
+        "id": "doitgarden",
+        "name": "Do It + Garden"
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "160376000000",
+      "language": "de",
+      "name": "YOU Ice Cream Vanilla",
+      "slug": "you-ice-cream-vanilla",
+      "boss_number": "010518024605",
+      "description": {
+        "text": "<p><strong>YOU 250CAL VANILLA BOURBON</strong></p><p>Speiseeis Vanille, mit Zucker und S&uuml;ssungsmitteln, 50% weniger Zucker, 50% weniger Kalorien</p>",
+        "source": "PIM"
+      },
+      "tags": [
+        "source-pim",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "7613312226483"
+      ],
+      "brand": {
+        "id": "R07",
+        "name": "YOU",
+        "slug": "you",
+        "image": {
+          "original": "https://image.migros.ch/original/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg",
+          "stack": "https://image.migros.ch/{stack}/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "BeSS_01011507",
+          "name": "Glacé & Süssspeisen",
+          "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/glace-suessspeisen",
+          "visible": true,
+          "title": "Sommer und Sonne &ndash; noch schöner mit Glacés von der Migros",
+          "parent_code": "BeSS_010115",
+          "image": {
+            "original": "https://image.migros.ch/original/415a387c16804f912c254ce923ef9dafcbbbfd1b/glace-suessspeisen.jpg",
+            "stack": "https://image.migros.ch/{stack}/415a387c16804f912c254ce923ef9dafcbbbfd1b/glace-suessspeisen.jpg"
+          },
+          "level": 4
+        },
+        {
+          "code": "BeSS_010115",
+          "name": "Tiefkühlprodukte",
+          "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+          "visible": true,
+          "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+          "parent_code": "BeSS_0101",
+          "image": {
+            "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+            "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+          },
+          "level": 3
+        },
+        {
+          "code": "BeSS_0101",
+          "name": "Lebensmittel",
+          "slug": "supermarkt/lebensmittel",
+          "visible": true,
+          "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+          "parent_code": "BeSS_01",
+          "image": {
+            "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+            "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+          },
+          "level": 2
+        },
+        {
+          "code": "BeSS_01",
+          "name": "Supermarkt",
+          "slug": "supermarkt",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "MISO_produktionsanspruch",
+          "label": "Produktionsverfahren",
+          "values": [
+            {
+              "value_code": "MISO_produktionsanspruch_mitsuessungsmitteln",
+              "value": "Mit Süssungsmitteln"
+            },
+            {
+              "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+              "value": "Mit natürlichen Aromen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_anzahlentnehmbarereinzelportionen",
+          "label": "Anzahl entnehmbarer Einzeleinheiten",
+          "values": [
+            {
+              "value_code": "NUMERIC_5.0",
+              "value": "5.0",
+              "numeric_value": 5
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_cu_gebindeart",
+          "label": "Verpackungsart",
+          "values": [
+            {
+              "value_code": "MISO_cu_gebindeart_becher",
+              "value": "Becher"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_naehrwertanspruch",
+          "label": "Nährwertanspruch",
+          "values": [
+            {
+              "value_code": "MISO_naehrwertanspruch_kalorienreduziert",
+              "value": "Kalorienreduziert"
+            },
+            {
+              "value_code": "MISO_naehrwertanspruch_zuckerreduziert",
+              "value": "zuckerreduziert"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_prozentderreduzierung",
+          "label": "Prozent der Reduzierung",
+          "values": [
+            {
+              "value": "50% weniger Zucker, 50% weniger Kalorien"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_anzahlportionen",
+          "label": "Anzahl Portionen",
+          "values": [
+            {
+              "value_code": "NUMERIC_5",
+              "value": "5",
+              "numeric_value": 5
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_produktionslandherstellungsort",
+          "label": "Produktionsland/Herstellungsort",
+          "values": [
+            {
+              "value_code": "MISO_produktionslandherstellungsort_schweiz",
+              "value": "Schweiz"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_artvondessert",
+          "label": "Art von Dessert",
+          "values": [
+            {
+              "value_code": "MISO_artvondessert_glace",
+              "value": "Glace"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_hinzugefuegtezutaten",
+          "label": "Hinzugefügte Zutaten",
+          "values": [
+            {
+              "value_code": "MISO_hinzugefuegtezutaten_rahm",
+              "value": "Rahm"
+            },
+            {
+              "value_code": "MISO_hinzugefuegtezutaten_vanillearoma",
+              "value": "Vanillearoma"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_artvonspeiseeisglace",
+          "label": "Art von Speiseeis/Glace",
+          "values": [
+            {
+              "value_code": "MISO_artvonspeiseeisglace_rahmglacevanille",
+              "value": "Rahmglace Vanille"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/be363437160943c1686edf8b12d2d477a5e6c2af/you-ice-cream-vanilla.jpg",
+        "stack": "https://image.migros.ch/{stack}/be363437160943c1686edf8b12d2d477a5e6c2af/you-ice-cream-vanilla.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/6b80140b8c9328a98feefc393d616f18e1ce9437/you-ice-cream-vanilla.png",
+        "stack": "https://image.migros.ch/{stack}/6b80140b8c9328a98feefc393d616f18e1ce9437/you-ice-cream-vanilla.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HAWA",
+              "value": "Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "X",
+              "value": "Auslaufartikel"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "30037",
+              "value": "TK SAISON DOSEN / DESSERTS"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 2,
+        "percentage": 2.5
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/160376000000",
+          "name": "migros.ch",
+          "canonical": "https://produkte.migros.ch/you-ice-cream-vanilla",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/160376000000",
+          "name": "Migipedia",
+          "canonical": "https://produkte.migros.ch/you-ice-cream-vanilla",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-11T05:48:15+0200",
+      "receipt_text": "YOU Vanilla 450ml",
+      "price": {
+        "valid_from": "2019-02-09T00:00:00+0100",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 5.95,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false,
+          "display_quantity": "450ml"
+        },
+        "base": {
+          "price": 1.32,
+          "quantity": 100,
+          "unit": "ml"
+        }
+      },
+      "retailer": {
+        "id": "supermarkt",
+        "name": "Supermarkt"
+      },
+      "ratings": {
+        "count_all": 9,
+        "average_all": 2.666666666667
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "160376200000",
+      "language": "de",
+      "name": "YOU Ice Cream Chocolate",
+      "slug": "you-ice-cream-chocolate-160376200000",
+      "boss_number": "010518024605",
+      "description": {
+        "text": "<p><strong>YOU 250CAL CHOCOLAT PRALINE</strong></p><p>Speiseeis Schokolade, mit Zucker und S&uuml;ssungsmitteln, 50 weniger Zucker, 50% eniger Kalorien.</p>",
+        "source": "PIM"
+      },
+      "tags": [
+        "source-pim",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "7613312226506"
+      ],
+      "brand": {
+        "id": "R07",
+        "name": "YOU",
+        "slug": "you",
+        "image": {
+          "original": "https://image.migros.ch/original/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg",
+          "stack": "https://image.migros.ch/{stack}/06c7b3e9747e8266271bc30ff9c211bb607bb19e/you.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "BeSS_01011507",
+          "name": "Glacé & Süssspeisen",
+          "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/glace-suessspeisen",
+          "visible": true,
+          "title": "Sommer und Sonne &ndash; noch schöner mit Glacés von der Migros",
+          "parent_code": "BeSS_010115",
+          "image": {
+            "original": "https://image.migros.ch/original/415a387c16804f912c254ce923ef9dafcbbbfd1b/glace-suessspeisen.jpg",
+            "stack": "https://image.migros.ch/{stack}/415a387c16804f912c254ce923ef9dafcbbbfd1b/glace-suessspeisen.jpg"
+          },
+          "level": 4
+        },
+        {
+          "code": "BeSS_010115",
+          "name": "Tiefkühlprodukte",
+          "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+          "visible": true,
+          "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+          "parent_code": "BeSS_0101",
+          "image": {
+            "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+            "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+          },
+          "level": 3
+        },
+        {
+          "code": "BeSS_0101",
+          "name": "Lebensmittel",
+          "slug": "supermarkt/lebensmittel",
+          "visible": true,
+          "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+          "parent_code": "BeSS_01",
+          "image": {
+            "original": "https://image.migros.ch/original/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg",
+            "stack": "https://image.migros.ch/{stack}/c4c714b236338d5b9a042dd7dd2457b7e8604696/lebensmittel.jpg"
+          },
+          "level": 2
+        },
+        {
+          "code": "BeSS_01",
+          "name": "Supermarkt",
+          "slug": "supermarkt",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "MISO_produktionsanspruch",
+          "label": "Produktionsverfahren",
+          "values": [
+            {
+              "value_code": "MISO_produktionsanspruch_mitsuessungsmitteln",
+              "value": "Mit Süssungsmitteln"
+            },
+            {
+              "value_code": "MISO_produktionsanspruch_mitnatuerlichenaromen",
+              "value": "Mit natürlichen Aromen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_cu_gebindeart",
+          "label": "Verpackungsart",
+          "values": [
+            {
+              "value_code": "MISO_cu_gebindeart_becher",
+              "value": "Becher"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_naehrwertanspruch",
+          "label": "Nährwertanspruch",
+          "values": [
+            {
+              "value_code": "MISO_naehrwertanspruch_kalorienreduziert",
+              "value": "Kalorienreduziert"
+            },
+            {
+              "value_code": "MISO_naehrwertanspruch_zuckerreduziert",
+              "value": "zuckerreduziert"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_prozentderreduzierung",
+          "label": "Prozent der Reduzierung",
+          "values": [
+            {
+              "value": "50% weniger Zucker, 50% weniger Kalorien"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_anzahlportionen",
+          "label": "Anzahl Portionen",
+          "values": [
+            {
+              "value_code": "NUMERIC_5",
+              "value": "5",
+              "numeric_value": 5
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_produktionslandherstellungsort",
+          "label": "Produktionsland/Herstellungsort",
+          "values": [
+            {
+              "value_code": "MISO_produktionslandherstellungsort_schweiz",
+              "value": "Schweiz"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_artvondessert",
+          "label": "Art von Dessert",
+          "values": [
+            {
+              "value_code": "MISO_artvondessert_glace",
+              "value": "Glace"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_hinzugefuegtezutaten",
+          "label": "Hinzugefügte Zutaten",
+          "values": [
+            {
+              "value_code": "MISO_hinzugefuegtezutaten_kakao",
+              "value": "Kakao"
+            },
+            {
+              "value_code": "MISO_hinzugefuegtezutaten_rahm",
+              "value": "Rahm"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MISO_artvonspeiseeisglace",
+          "label": "Art von Speiseeis/Glace",
+          "values": [
+            {
+              "value_code": "MISO_artvonspeiseeisglace_rahmglaceschokolade",
+              "value": "Rahmglace Schokolade"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/e0f8c681bd931b56815fe38e025610833054d88f/you-ice-cream-chocolate.jpg",
+        "stack": "https://image.migros.ch/{stack}/e0f8c681bd931b56815fe38e025610833054d88f/you-ice-cream-chocolate.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/c1fe65ab47aa34f0a7b192c09af3ed8e1acb4e77/you-ice-cream-chocolate.png",
+        "stack": "https://image.migros.ch/{stack}/c1fe65ab47aa34f0a7b192c09af3ed8e1acb4e77/you-ice-cream-chocolate.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HAWA",
+              "value": "Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "X",
+              "value": "Auslaufartikel"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "30037",
+              "value": "TK SAISON DOSEN / DESSERTS"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 2,
+        "percentage": 2.5
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/160376200000",
+          "name": "migros.ch",
+          "canonical": "https://produkte.migros.ch/you-ice-cream-chocolate-160376200000",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/160376200000",
+          "name": "Migipedia",
+          "canonical": "https://produkte.migros.ch/you-ice-cream-chocolate-160376200000",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-11T05:48:15+0200",
+      "receipt_text": "YOU Chocolate 450ml",
+      "price": {
+        "valid_from": "2019-02-09T00:00:00+0100",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 5.95,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false,
+          "display_quantity": "450ml"
+        },
+        "base": {
+          "price": 1.32,
+          "quantity": 100,
+          "unit": "ml"
+        }
+      },
+      "retailer": {
+        "id": "supermarkt",
+        "name": "Supermarkt"
+      },
+      "ratings": {
+        "count_all": 11,
+        "average_all": 2.818181818182
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300137145",
+      "language": "de",
+      "name": "Urban Armor Gear Plasma Case for Apple 10.5\" iPad Pro Ice transparent",
+      "slug": "urban-armor-gear-plasma-case-for-apple-105-ipad-pro-ice-tran",
+      "boss_number": "241222971505",
+      "description": {
+        "text": "Hervorragende Schutztasche aus einem Verbund aus hartem Polycarbonat und einem flexiblen Rahmen aus staubabweisendem und rutschhemmenden Material. Sch&uuml;tzt zuverl&auml;ssig vor Schl&auml;gen,St&uuml;rzen, Kratzer und Schmutz Getestet nach dem Milit&auml;rstandard MIL-STD-810G 516.6 bei dem die Tasche mit Tablet mehrere St&uuml;rze unbeschadet &uuml;berstehen muss.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "0852524008068"
+      ],
+      "brand": {
+        "id": "V11",
+        "name": "Urban Armor Gear",
+        "slug": "urban-armor-gear",
+        "image": {
+          "original": "https://image.migros.ch/original/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg",
+          "stack": "https://image.migros.ch/{stack}/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_CoversTastaturen_ZubehoerTablets_ComputingTablets",
+          "name": "Covers & Tastaturen",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets/covers-tastaturen",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "name": "Zubehör Tablets",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_ComputingTablets",
+          "name": "Computing & Tablets",
+          "slug": "melectronics/computing-tablets",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_produkttyp",
+          "label": "Produkttyp",
+          "values": [
+            {
+              "value": "Case"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_passend_zu",
+          "label": "Passend zu",
+          "values": [
+            {
+              "value": "iPad Pro 10.5\""
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_farbe",
+          "label": "Farbe",
+          "values": [
+            {
+              "value": "transparent"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_m-garantie_m-garantie",
+          "label": "M-Garantie",
+          "values": [
+            {
+              "value_code": "MEL_M-Garantie_2Jahre",
+              "value": "2 Jahre"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value": "IPDP10.5-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/7dceb613e38d31f856ea83b46ff860c2b4c4d103/urban-armor-gear-plasma-case-for-apple-105-ipad-pro-ice-tran.jpg",
+        "stack": "https://image.migros.ch/{stack}/7dceb613e38d31f856ea83b46ff860c2b4c4d103/urban-armor-gear-plasma-case-for-apple-105-ipad-pro-ice-tran.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/73d1f132a7011d387d424d1a1b5b22e4174fa501/urban-armor-gear-plasma-case-for-apple-105-ipad-pro-ice-tran.png",
+        "stack": "https://image.migros.ch/{stack}/73d1f132a7011d387d424d1a1b5b22e4174fa501/urban-armor-gear-plasma-case-for-apple-105-ipad-pro-ice-tran.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "ZMLE",
+              "value": "ZMLE"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "60327",
+              "value": "LE TABLET PC/CONVERT.ZUB."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value": "IPDP10.5-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300137145",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300137145/urban-armor-gear-plasma-case-for-apple-10-5-ipad-pro-ice-transparent",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300137145",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300137145/urban-armor-gear-plasma-case-for-apple-10-5-ipad-pro-ice-transparent",
+          "type": "info",
+          "purchasable": false
+        },
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300137145/urban-armor-gear-plasma-case-for-apple-10-5-ipad-pro-ice-transparent",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300137145/urban-armor-gear-plasma-case-for-apple-10-5-ipad-pro-ice-transparent",
+          "type": "shop",
+          "purchasable": true
+        }
+      },
+      "updated_at": "2020-09-15T15:48:16+0200",
+      "receipt_text": "URBAN Armor GearP 10.5",
+      "price": {
+        "valid_from": "2020-08-07T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 60.8,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "warranty_months": 24,
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300137146",
+      "language": "de",
+      "name": "Urban Armor Gear Plasma Case for Apple 12.9\" iPad Pro Ice transparent",
+      "slug": "urban-armor-gear-plasma-case-for-apple-129-ipad-pro-ice-tran",
+      "boss_number": "241222971505",
+      "description": {
+        "text": "Hervorragende Schutztasche aus einem Verbund aus hartem Polycarbonat und einem flexiblen Rahmen aus staubabweisendem und rutschhemmenden Material. Sch&uuml;tzt zuverl&auml;ssig vor Schl&auml;gen,St&uuml;rzen, Kratzer und Schmutz Getestet nach dem Milit&auml;rstandard MIL-STD-810G 516.6 bei dem die Tasche mit Tablet mehrere St&uuml;rze unbeschadet &uuml;berstehen muss.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "0852524008075"
+      ],
+      "brand": {
+        "id": "V11",
+        "name": "Urban Armor Gear",
+        "slug": "urban-armor-gear",
+        "image": {
+          "original": "https://image.migros.ch/original/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg",
+          "stack": "https://image.migros.ch/{stack}/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_CoversTastaturen_ZubehoerTablets_ComputingTablets",
+          "name": "Covers & Tastaturen",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets/covers-tastaturen",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "name": "Zubehör Tablets",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_ComputingTablets",
+          "name": "Computing & Tablets",
+          "slug": "melectronics/computing-tablets",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_produkttyp",
+          "label": "Produkttyp",
+          "values": [
+            {
+              "value": "Case"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_passend_zu",
+          "label": "Passend zu",
+          "values": [
+            {
+              "value": "iPad Pro 12.9\""
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_farbe",
+          "label": "Farbe",
+          "values": [
+            {
+              "value": "transparent"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_m-garantie_m-garantie",
+          "label": "M-Garantie",
+          "values": [
+            {
+              "value_code": "MEL_M-Garantie_2Jahre",
+              "value": "2 Jahre"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value": "IPDP12.9-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/ec9fe43cc81d37ce09d058e477427cc32fb5dafd/urban-armor-gear-plasma-case-for-apple-129-ipad-pro-ice-tran.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec9fe43cc81d37ce09d058e477427cc32fb5dafd/urban-armor-gear-plasma-case-for-apple-129-ipad-pro-ice-tran.jpg"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "ZMLE",
+              "value": "ZMLE"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "60327",
+              "value": "LE TABLET PC/CONVERT.ZUB."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value": "IPDP12.9-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300137146/urban-armor-gear-plasma-case-for-apple-12-9-ipad-pro-ice-transparent",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300137146/urban-armor-gear-plasma-case-for-apple-12-9-ipad-pro-ice-transparent",
+          "type": "shop",
+          "purchasable": false
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300137146",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300137146/urban-armor-gear-plasma-case-for-apple-12-9-ipad-pro-ice-transparent",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300137146",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300137146/urban-armor-gear-plasma-case-for-apple-12-9-ipad-pro-ice-transparent",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-09T14:44:19+0200",
+      "receipt_text": "URBAN Armor GearP 12.9",
+      "price": {
+        "valid_from": "2020-08-07T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 89.8,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300134187",
+      "language": "de",
+      "name": "PC/Mac - Magicka 2: Ice, Death and Fury Download (ESD)",
+      "slug": "pcmac-magicka-2-ice-death-and-fury-download-esd",
+      "product_type": "Download (ESD)",
+      "boss_number": "242236120520",
+      "description": {
+        "text": "<p>Vier nagelneue Szenarien - Einzigartigen Herausforderungen - Sch&uuml;tzen Sie das King,Troll Cave,Dunkelheit und Old Wizard!</p><p>Drei nagelneuen Bossk&auml;mpfe - Face off gegen Insane Maxi,Herr Carrot and The Great Porkolino!</p><p>Drei Voll Robe setzt - mit atemberaubenden Fernkampfwaffen und einzigartige Effekte! Tod Apprentice Gewand,Grimnir Reaper Personal und die Dead Mans Hand Waffe. Scavenger Gewand,Mitarbeiter der Nachweis und der Ol ' Trusty Rusty Revolver! Robe der Riviera,Crow Personal und eine Silber-Langschwert.</p>",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "5056143114000"
+      ],
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_GamesDownload_Games_GamingSpielwaren",
+          "name": "Games (Download)",
+          "slug": "melectronics/gaming-spielwaren/games/games-download",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_Games_GamingSpielwaren",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_Games_GamingSpielwaren",
+          "name": "Games",
+          "slug": "melectronics/gaming-spielwaren/games",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "name": "Gaming & Spielwaren",
+          "slug": "melectronics/gaming-spielwaren",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_kompatible_spielkonsolen_neu",
+          "label": "Kompatible Spielkonsolen",
+          "values": [
+            {
+              "value_code": "MEL_kompatible_spielkonsolen_pc",
+              "value": "PC"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_erscheinungsdatum",
+          "label": "Erscheinungsdatum",
+          "values": [
+            {
+              "value": "10.11.2016"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_genre_games",
+          "label": "Genre",
+          "values": [
+            {
+              "value_code": "MEL_genre_ActionAdventure",
+              "value": "Action-Adventure"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_hersteller",
+          "label": "Hersteller",
+          "values": [
+            {
+              "value": "Paradox Interactive"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_sprachen_spielsprache",
+          "label": "Sprache",
+          "values": [
+            {
+              "value_code": "MEL_Sprachen_Deutsch",
+              "value": "Deutsch"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_plattform_plattform",
+          "label": "Plattform",
+          "values": [
+            {
+              "value_code": "MEL_Plattform_PC_Mac",
+              "value": "PC / Mac"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value_code": "NUMERIC_804208",
+              "value": "804208",
+              "numeric_value": 804208
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/6ce6e77d244e4fbd5ff6e14d44ddf72ec344d97f/pcmac-magicka-2-ice-death-and-fury-download-esd.jpg",
+        "stack": "https://image.migros.ch/{stack}/6ce6e77d244e4fbd5ff6e14d44ddf72ec344d97f/pcmac-magicka-2-ice-death-and-fury-download-esd.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/9ea095a697604a1848627d800e0cddbe12a027cf/pcmac-magicka-2-ice-death-and-fury-download-esd.png",
+        "stack": "https://image.migros.ch/{stack}/9ea095a697604a1848627d800e0cddbe12a027cf/pcmac-magicka-2-ice-death-and-fury-download-esd.png"
+      },
+      "additional_images": [
+        {
+          "original": "https://image.migros.ch/original/d60701888d14fd03e105b8a8ec4c430b2207820c.jpg",
+          "stack": "https://image.migros.ch/{stack}/d60701888d14fd03e105b8a8ec4c430b2207820c.jpg"
+        },
+        {
+          "original": "https://image.migros.ch/original/1aeb77a7db062005b33e54489c5ce0d36993dd9b.jpg",
+          "stack": "https://image.migros.ch/{stack}/1aeb77a7db062005b33e54489c5ce0d36993dd9b.jpg"
+        },
+        {
+          "original": "https://image.migros.ch/original/897deb2d1faae68a658a594a2ae84ec3f42731a9.jpg",
+          "stack": "https://image.migros.ch/{stack}/897deb2d1faae68a658a594a2ae84ec3f42731a9.jpg"
+        },
+        {
+          "original": "https://image.migros.ch/original/fcbde5cf28e87660cd426b5b51732cd6ead64a1c.jpg",
+          "stack": "https://image.migros.ch/{stack}/fcbde5cf28e87660cd426b5b51732cd6ead64a1c.jpg"
+        }
+      ],
+      "internal_features": [
+        {
+          "label_code": "MAPI_RETURNABLE",
+          "label": "Rückgabe",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "true",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "ZMLE",
+              "value": "ZMLE"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "59512",
+              "value": "ESD GAMES"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value_code": "NUMERIC_804208",
+              "value": "804208",
+              "numeric_value": 804208
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300134187/pc-mac-magicka-2-ice-death-and-fury",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300134187/pc-mac-magicka-2-ice-death-and-fury",
+          "type": "shop",
+          "purchasable": true
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300134187",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300134187/pc-mac-magicka-2-ice-death-and-fury",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300134187",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300134187/pc-mac-magicka-2-ice-death-and-fury",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-09T14:41:38+0200",
+      "receipt_text": "PC/Mac Magicka 2 - Ice",
+      "price": {
+        "valid_from": "2018-03-19T00:00:00+0100",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 14.9,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "eyecatchers": [
+        {
+          "value_code": "MEL_KinderAlterAb_16",
+          "label_code": "mel_kinderalterab_geeignet_ab",
+          "description": "Pegi Alter 16 Geeignet ab MEL Merkmal ",
+          "image": {
+            "original": "https://image.migros.ch/original/26d795fc1cb2d3b4ba28860f8049e90131e9567e/MEL_KinderAlterAb_16.jpg",
+            "code": "MEL_KinderAlterAb_16",
+            "description": "Pegi Alter 16 Geeignet ab MEL Merkmal ",
+            "stack": "https://image.migros.ch/{stack}/26d795fc1cb2d3b4ba28860f8049e90131e9567e/MEL_KinderAlterAb_16.jpg"
+          }
+        },
+        {
+          "value_code": "MEL_digitaler_download_ja",
+          "label_code": "mel_digitaler_download_esd",
+          "description": "Digitaler download",
+          "image": {
+            "original": "https://image.migros.ch/original/2612d2d0d0022beec243a74ae535457d844014ce/MEL_digitaler_download_ja.jpg",
+            "code": "MEL_digitaler_download_ja",
+            "description": "Digitaler download",
+            "stack": "https://image.migros.ch/{stack}/2612d2d0d0022beec243a74ae535457d844014ce/MEL_digitaler_download_ja.jpg"
+          }
+        }
+      ],
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300137144",
+      "language": "de",
+      "name": "Urban Armor Gear Plasma Case for Apple 9.7\" iPad Pro, iPad 9.7\" ice",
+      "slug": "urban-armor-gear-plasma-case-for-apple-97-ipad-pro-ipad-97-i",
+      "boss_number": "241222971505",
+      "description": {
+        "text": "Hervorragende Schutztasche aus einem Verbund aus hartem Polycarbonat und einem flexiblen Rahmen aus staubabweisendem und rutschhemmenden Material. Sch&uuml;tzt zuverl&auml;ssig vor Schl&auml;gen,St&uuml;rzen, Kratzer und Schmutz Getestet nach dem Milit&auml;rstandard bei dem die Tasche mit Tablet mehrere St&uuml;rze unbeschadet &uuml;berstehen muss.",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "0852524008051"
+      ],
+      "brand": {
+        "id": "V11",
+        "name": "Urban Armor Gear",
+        "slug": "urban-armor-gear",
+        "image": {
+          "original": "https://image.migros.ch/original/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg",
+          "stack": "https://image.migros.ch/{stack}/26fd52667f9d6dc8fb4dea7a2c86fecd41aa5f05/urban-armor-gear.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_CoversTastaturen_ZubehoerTablets_ComputingTablets",
+          "name": "Covers & Tastaturen",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets/covers-tastaturen",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_ZubehoerTablets_ComputingTablets",
+          "name": "Zubehör Tablets",
+          "slug": "melectronics/computing-tablets/zubehoer-tablets",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_ComputingTablets",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_ComputingTablets",
+          "name": "Computing & Tablets",
+          "slug": "melectronics/computing-tablets",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_produkttyp",
+          "label": "Produkttyp",
+          "values": [
+            {
+              "value": "Case"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_passend_zu",
+          "label": "Passend zu",
+          "values": [
+            {
+              "value": "iPad Pro 9.7\""
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_farbe",
+          "label": "Farbe",
+          "values": [
+            {
+              "value": "transparent"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_m-garantie_m-garantie",
+          "label": "M-Garantie",
+          "values": [
+            {
+              "value_code": "MEL_M-Garantie_2Jahre",
+              "value": "2 Jahre"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value": "IPD17-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/2bd70ef4bae08df5cae059bf2643d50c9b485d1e/urban-armor-gear-plasma-case-for-apple-97-ipad-pro-ipad-97-i.jpg",
+        "stack": "https://image.migros.ch/{stack}/2bd70ef4bae08df5cae059bf2643d50c9b485d1e/urban-armor-gear-plasma-case-for-apple-97-ipad-pro-ipad-97-i.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/3a0ee9ad4c56eae62944f09d3235bd2429d74c0e/urban-armor-gear-plasma-case-for-apple-97-ipad-pro-ipad-97-i.png",
+        "stack": "https://image.migros.ch/{stack}/3a0ee9ad4c56eae62944f09d3235bd2429d74c0e/urban-armor-gear-plasma-case-for-apple-97-ipad-pro-ipad-97-i.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "ZMLE",
+              "value": "ZMLE"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "60327",
+              "value": "LE TABLET PC/CONVERT.ZUB."
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value": "IPD17-L-IC"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300137144",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300137144/urban-armor-gear-plasma-case-for-apple-9-7-ipad-pro-ipad-9-7-ice",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300137144",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300137144/urban-armor-gear-plasma-case-for-apple-9-7-ipad-pro-ipad-9-7-ice",
+          "type": "info",
+          "purchasable": false
+        },
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300137144/urban-armor-gear-plasma-case-for-apple-9-7-ipad-pro-ipad-9-7-ice",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300137144/urban-armor-gear-plasma-case-for-apple-9-7-ipad-pro-ipad-9-7-ice",
+          "type": "shop",
+          "purchasable": true
+        }
+      },
+      "updated_at": "2020-09-15T15:49:10+0200",
+      "receipt_text": "URBAN Armor GearPl 9.7",
+      "price": {
+        "valid_from": "2020-09-02T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 63.8,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "772833100000",
+      "language": "de",
+      "name": "Ultimate Ears WONDER­BOOM™ 2 - Crushed Ice Grey Bluetooth Lautsprecher",
+      "slug": "ultimate-ears-wonderboom-2-crushed-ice-grey-bluetooth-lautsp",
+      "product_type": "Bluetooth Lautsprecher",
+      "boss_number": "240237093005",
+      "description": {
+        "text": "<p><strong>NOCH SATTERER SOUND </strong></p><p><strong> DER BRANDNEUE OUTDOOR-MODUS</strong></p><p>Ultimate Ears WONDERBOOM™ 2 erzeugt &uuml;berraschend satten 360-Grad-Sound mit krassem Bass – wirklich &uuml;berall. Und der neue Outdoor-Modus sorgt f&uuml;r ein lauteres, st&auml;rkeres Audiosignal, das speziell getunt ist f&uuml;r Musikh&ouml;ren im Freien. Tu dir also keinen Zwang an – bring deinen Party-Sound &uuml;berallhin mit.</p><p> </p><p><strong>13 STUNDEN MEGA-SOUND</strong></p><p>Dieser kleine Lautsprecher kann richtig laut aufdrehen. Die Akkulaufzeit von 13 Stunden gew&auml;hrleistet krassen Sound f&uuml;r spontane Rave-Partys, Strandexkursionen und Feiern am Pool. Ganz egal, was du auch tust, er macht niemals schlapp und l&auml;uft einfach immer weiter. Und weiter. Und weiter. (Bis zum Morgengrauen.)</p><p> </p><p><strong>SPITZEN-SOUND BEIM SCHWIM­MEN</strong></p><p>WONDERBOOM 2 l&auml;sst sich mit einem Wort umschreiben: BOMBE. Die IP67-Schutzklasse bedeutet, dass der Lautsprecher extrem wasserdicht und staubdicht ist und f&uuml;r Bombenstimmung sorgt. Er ist dein schwimmf&auml;higer Begleiter im Schwimmbad und unter der Dusche und spielt deinen pers&ouml;nlichen Sommer-Soundtrack. Selbst wenn du beim Baden am Strand von den Wellen umsp&uuml;lt wirst, musst du nicht auf genialen Sound verzichten.</p><p> </p><p><strong>PAIRING VON ZWEI LAUTSPRECHERN F&Uuml;R STEREO-SOUND</strong></p><p>Wenn es einmal richtig laut werden muss, lassen sich zwei WONDERBOOM 2 Lautsprecher kabellos pairen, damit die Party wirklich fetzt! Schnapp dir also einen Freund zum Verbinden und lauter Feiern oder um vollst&auml;ndig in eine wunderbare kabellosen Klangwelt mit Stereo-Sound einzutauchen – absolut &uuml;berall. Der Lautsprecher ist ein echter Teamplayer. Er kann sich sogar mit einem WONDERBOOM Lautsprecher aus der &auml;lteren Generation verbinden f&uuml;r doppelten Sound!</p><p><em>(Kann nicht verbunden werden mit BOOM oder MEGABOOM.)</em></p><p> </p><p><strong>ROBUSTES DESIGN</strong></p><p>WONDERBOOM 2 ist ein wirklich nicht zu untersch&auml;tzender mobiler Lautsprecher. Das kleine Ger&auml;t mit &uuml;berraschend sattem Sound ist sturzfest* und hat eine stylishe H&auml;ngeschlaufe zum bequem Befestigen, damit du ihn &uuml;berallhin mitnehmen und losfeiern kannst. Ob beim Tanzen, Radfahren oder Schwimmen, die Partystimmung h&ouml;rt niemals auf.</p><p><em>(*Sturztest aus einer Fallh&ouml;he von 1,5 m.)</em></p>",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "5099206084186"
+      ],
+      "brand": {
+        "id": "R25",
+        "name": "Ultimate Ears",
+        "slug": "ultimate-ears",
+        "image": {
+          "original": "https://image.migros.ch/original/461ff280869dd1dc68f1f09a7f7ed3e3b52e2cdb/ultimate-ears.jpg",
+          "stack": "https://image.migros.ch/{stack}/461ff280869dd1dc68f1f09a7f7ed3e3b52e2cdb/ultimate-ears.jpg"
+        }
+      },
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_PortableLautsprecher_Lautsprecher_TVAudio",
+          "name": "Portable Lautsprecher",
+          "slug": "melectronics/tv-audio/lautsprecher/portable-lautsprecher",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_Lautsprecher_TVAudio",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_Lautsprecher_TVAudio",
+          "name": "Lautsprecher",
+          "slug": "melectronics/tv-audio/lautsprecher",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_TVAudio",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_TVAudio",
+          "name": "TV & Audio",
+          "slug": "melectronics/tv-audio",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_akku_batterieaufladedauer",
+          "label": "Akku-/Batterieaufladedauer",
+          "values": [
+            {
+              "value_code": "NUMERIC_2.6",
+              "value": "2.6 h",
+              "numeric_value": 2.6
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "h",
+          "unit": "Stunde(n)",
+          "unit_symbol": "h"
+        },
+        {
+          "label_code": "mel_akku_batteriebetriebsdauer",
+          "label": "Akku-/Batteriebetriebsdauer",
+          "values": [
+            {
+              "value_code": "NUMERIC_13",
+              "value": "13 h",
+              "numeric_value": 13
+            }
+          ],
+          "top_fact": true,
+          "unit_code": "h",
+          "unit": "Stunde(n)",
+          "unit_symbol": "h"
+        },
+        {
+          "label_code": "mel_frequenz",
+          "label": "Frequenz",
+          "values": [
+            {
+              "value": "75Hz - 20kHz"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_lautsprecher_typ",
+          "label": "Lautsprecher Typ",
+          "values": [
+            {
+              "value_code": "MEL_lautsprecher_typ_portable_lautsprecher",
+              "value": "Portable Lautsprecher"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_kabellose_uebertragung",
+          "label": "Kabellose Übertragung",
+          "values": [
+            {
+              "value_code": "MEL_kabellose_uebertragung_bluetooth",
+              "value": "Bluetooth"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_stromversorgung",
+          "label": "Stromversorgung",
+          "values": [
+            {
+              "value_code": "MEL_stromversorgung_akkubetrieb",
+              "value": "Akkubetrieb"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_widerstandsfaehigkeit",
+          "label": "Widerstandsfähigkeit",
+          "values": [
+            {
+              "value_code": "MEL_widerstandsfaehigkeit_wasserdicht",
+              "value": "Wasserdicht"
+            },
+            {
+              "value_code": "MEL_widerstandsfaehigkeit_staubfest",
+              "value": "Staubfest"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "mel_breite",
+          "label": "Breite",
+          "values": [
+            {
+              "value_code": "NUMERIC_9.5",
+              "value": "9.5 cm",
+              "numeric_value": 9.5
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "cm",
+          "unit": "Zentimeter",
+          "unit_symbol": "cm"
+        },
+        {
+          "label_code": "mel_hoehe",
+          "label": "Höhe",
+          "values": [
+            {
+              "value_code": "NUMERIC_10.4",
+              "value": "10.4 cm",
+              "numeric_value": 10.4
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "cm",
+          "unit": "Zentimeter",
+          "unit_symbol": "cm"
+        },
+        {
+          "label_code": "mel_gewicht",
+          "label": "Gewicht",
+          "values": [
+            {
+              "value_code": "NUMERIC_420",
+              "value": "420 g",
+              "numeric_value": 420
+            }
+          ],
+          "top_fact": false,
+          "unit_code": "g",
+          "unit": "Gramm",
+          "unit_symbol": "g"
+        },
+        {
+          "label_code": "mel_m-garantie_m-garantie",
+          "label": "M-Garantie",
+          "values": [
+            {
+              "value_code": "MEL_M-Garantie_2Jahre",
+              "value": "2 Jahre"
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/49afa4df498138cbcb29a4e32c6db25cddea9678/ultimate-ears-wonderboom-2-crushed-ice-grey-bluetooth-lautsp.jpg",
+        "stack": "https://image.migros.ch/{stack}/49afa4df498138cbcb29a4e32c6db25cddea9678/ultimate-ears-wonderboom-2-crushed-ice-grey-bluetooth-lautsp.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/f1ce21e5237a518b09b8ea80c005130dff927468/ultimate-ears-wonderboom-2-crushed-ice-grey-bluetooth-lautsp.png",
+        "stack": "https://image.migros.ch/{stack}/f1ce21e5237a518b09b8ea80c005130dff927468/ultimate-ears-wonderboom-2-crushed-ice-grey-bluetooth-lautsp.png"
+      },
+      "additional_images": [
+        {
+          "original": "https://image.migros.ch/original/eef21a3b747f2902def80411e3708e1f521c141f.jpg",
+          "stack": "https://image.migros.ch/{stack}/eef21a3b747f2902def80411e3708e1f521c141f.jpg"
+        }
+      ],
+      "internal_features": [
+        {
+          "label_code": "MAPI_RETURNABLE",
+          "label": "Rückgabe",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "true",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MAX_ORDER_QUANTITY",
+          "values": [
+            {
+              "value_code": "NUMERIC_3",
+              "value": "3",
+              "numeric_value": 3
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "NORM",
+              "value": "Normalposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "1",
+              "value": "1 (high)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "T",
+              "value": "TUKA zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "58919",
+              "value": "BLUETOOTH LS AKKU"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/772833100000/ultimate-ears-wonder-boom-2-crushed-ice-grey",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/772833100000/ultimate-ears-wonder-boom-2-crushed-ice-grey",
+          "type": "shop",
+          "purchasable": true
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/772833100000",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/772833100000/ultimate-ears-wonder-boom-2-crushed-ice-grey",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/772833100000",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/772833100000/ultimate-ears-wonder-boom-2-crushed-ice-grey",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-05T03:59:39+0200",
+      "receipt_text": "UE Wonderboom 2 - Crus",
+      "price": {
+        "valid_from": "2019-06-12T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 119,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "ratings": {
+        "count_all": 2,
+        "average_all": 3
+      },
+      "warranty_months": 24,
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300141464",
+      "language": "de",
+      "name": "amiibo Ice Climber Super Smash Bros. Collection  Box",
+      "slug": "amiibo-ice-climber-super-smash-bros-collection-box",
+      "product_type": "Box",
+      "boss_number": "242236779010",
+      "description": {
+        "text": "<p> amiibo bietet dir die tolle und einzigartige M&ouml;glichkeit, mit deinen Nintendo-Lieblingscharakteren und -spielen zu interagieren.</p><p>amiibo sind interaktive Figuren und Karten, die mit deinen Spielen interagieren. Wenn du ein amiibo scannst, w&auml;hrend du kompatible Nintendo Switch-, Nintendo 3DS- aoder Wii U-Software spielst, kannst du &uuml;berraschende neue Funktionen entdecken. amiibo haben abh&auml;ngig vom jeweiligen Spiel verschiedene Effekte: Du kannst neue Modi, Waffen oder Charakteranpassungen freischalten oder die F&auml;higkeiten deines amiibo verbessern, um sie zu einem perfekten Partner oder starken Gegner zu machen.</p><p>Mit dem Nintendo 3DS-NFC-Lese-/Schreibger&auml;t (separat erh&auml;ltlich) kannst du amiibo auch auf Nintendo 3DS, Nintendo 3DS XL und Nintendo 2DS verwenden.</p>",
+        "source": "PEX"
+      },
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "validity-range-not-set",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "0045496380731"
+      ],
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_ToystoLife_FanartikelGamesMovies_GamingSpielwaren",
+          "name": "Toys to Life",
+          "slug": "melectronics/gaming-spielwaren/fanartikel-games-movies/toys-to-life",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_FanartikelGamesMovies_GamingSpielwaren",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_FanartikelGamesMovies_GamingSpielwaren",
+          "name": "Fanartikel Games & Movies",
+          "slug": "melectronics/gaming-spielwaren/fanartikel-games-movies",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "name": "Gaming & Spielwaren",
+          "slug": "melectronics/gaming-spielwaren",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_kompatible_spielkonsolen_neu",
+          "label": "Kompatible Spielkonsolen",
+          "values": [
+            {
+              "value_code": "MEL_kompatible_spielkonsolen_switch",
+              "value": "Switch"
+            },
+            {
+              "value_code": "MEL_kompatible_spielkonsolen_3ds",
+              "value": "3DS"
+            },
+            {
+              "value_code": "MEL_kompatible_spielkonsolen_wii_u",
+              "value": "Wii U"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_erscheinungsdatum",
+          "label": "Erscheinungsdatum",
+          "values": [
+            {
+              "value": "15.02.2019"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_preorder",
+          "label": "Vorbestellen",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "Ja",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_genre_games",
+          "label": "Genre",
+          "values": [
+            {
+              "value_code": "MEL_genre_JumpRun",
+              "value": "Jump and Run"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_hersteller",
+          "label": "Hersteller",
+          "values": [
+            {
+              "value": "Nintendo"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_sprachen_spielsprache",
+          "label": "Sprache",
+          "values": [
+            {
+              "value_code": "MEL_Sprachen_Deutsch",
+              "value": "Deutsch"
+            },
+            {
+              "value_code": "MEL_Sprachen_Franzoesisch",
+              "value": "Französisch"
+            },
+            {
+              "value_code": "MEL_Sprachen_Italienisch",
+              "value": "Italienisch"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_plattform_plattform",
+          "label": "Plattform",
+          "values": [
+            {
+              "value_code": "MEL_Plattform_diverses",
+              "value": "Diverses"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value_code": "NUMERIC_10000767",
+              "value": "10000767",
+              "numeric_value": 10000767
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/921a3785ae6fef9276ad05f06eac9516d26cff18/amiibo-ice-climber-super-smash-bros-collection-box.jpg",
+        "stack": "https://image.migros.ch/{stack}/921a3785ae6fef9276ad05f06eac9516d26cff18/amiibo-ice-climber-super-smash-bros-collection-box.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/a9741936f9770bbd432a4eda2add90539049bbf5/amiibo-ice-climber-super-smash-bros-collection-box.png",
+        "stack": "https://image.migros.ch/{stack}/a9741936f9770bbd432a4eda2add90539049bbf5/amiibo-ice-climber-super-smash-bros-collection-box.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_RETURNABLE",
+          "label": "Rückgabe",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "BANS",
+              "value": "Streckenposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_AGE_VERIFICATION_REQUIRED",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "true",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_RISK_CLASS",
+          "values": [
+            {
+              "value_code": "3",
+              "value": "3 (low)"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "58173",
+              "value": "TOY"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value_code": "NUMERIC_10000767",
+              "value": "10000767",
+              "numeric_value": 10000767
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300141464/amiibo-ice-climber-super-smash-bros-collection",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300141464/amiibo-ice-climber-super-smash-bros-collection",
+          "type": "shop",
+          "purchasable": true
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300141464",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300141464/amiibo-ice-climber-super-smash-bros-collection",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300141464",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300141464/amiibo-ice-climber-super-smash-bros-collection",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-09-09T14:49:04+0200",
+      "receipt_text": "amiibo Super Smash Bros. Character - Ice",
+      "price": {
+        "valid_from": "2019-04-25T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 21.9,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    },
+    {
+      "id": "785300146076",
+      "language": "de",
+      "name": "NSW - Ice Age: Scrats Nussiges Abenteuer Box",
+      "slug": "nsw-ice-age-scrats-nussiges-abenteuer-box",
+      "product_type": "Box",
+      "boss_number": "242236779505",
+      "tags": [
+        "source-pex",
+        "migipedia",
+        "view-browse-partial",
+        "view-browse-all-retailers-partial"
+      ],
+      "is_variant": false,
+      "gtins": [
+        "5060528030984"
+      ],
+      "categories": [
+        {
+          "code": "MEL_SHOP_CAT_GamesBox_Games_GamingSpielwaren",
+          "name": "Games (Box)",
+          "slug": "melectronics/gaming-spielwaren/games/games-box",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_Games_GamingSpielwaren",
+          "level": 4
+        },
+        {
+          "code": "MEL_SHOP_CAT_Games_GamingSpielwaren",
+          "name": "Games",
+          "slug": "melectronics/gaming-spielwaren/games",
+          "visible": true,
+          "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "level": 3
+        },
+        {
+          "code": "MEL_SHOP_CAT_GamingSpielwaren",
+          "name": "Gaming & Spielwaren",
+          "slug": "melectronics/gaming-spielwaren",
+          "visible": true,
+          "parent_code": "BeSS_04",
+          "level": 2
+        },
+        {
+          "code": "BeSS_04",
+          "name": "melectronics",
+          "slug": "melectronics",
+          "visible": true,
+          "parent_code": "root",
+          "level": 1
+        }
+      ],
+      "features": [
+        {
+          "label_code": "mel_kompatible_spielkonsolen_neu",
+          "label": "Kompatible Spielkonsolen",
+          "values": [
+            {
+              "value_code": "MEL_kompatible_spielkonsolen_switch",
+              "value": "Switch"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_erscheinungsdatum",
+          "label": "Erscheinungsdatum",
+          "values": [
+            {
+              "value": "18.10.2019"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_preorder",
+          "label": "Vorbestellen",
+          "values": [
+            {
+              "value_code": "BOOLEAN_TRUE",
+              "value": "Ja",
+              "boolean_value": true
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_genre_games",
+          "label": "Genre",
+          "values": [
+            {
+              "value_code": "MEL_genre_ActionAdventure",
+              "value": "Action-Adventure"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_hersteller",
+          "label": "Hersteller",
+          "values": [
+            {
+              "value": "Bandai Namco"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_sprachen_spielsprache",
+          "label": "Sprache",
+          "values": [
+            {
+              "value_code": "MEL_Sprachen_Franzoesisch",
+              "value": "Französisch"
+            },
+            {
+              "value_code": "MEL_Sprachen_Deutsch",
+              "value": "Deutsch"
+            },
+            {
+              "value_code": "MEL_Sprachen_Italienisch",
+              "value": "Italienisch"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_plattform_plattform",
+          "label": "Plattform",
+          "values": [
+            {
+              "value_code": "MEL_Plattform_NintendoSwitch",
+              "value": "Nintendo Switch"
+            }
+          ],
+          "top_fact": true
+        },
+        {
+          "label_code": "mel_mpn",
+          "label": "MPN - Hersteller Artikelnummer",
+          "values": [
+            {
+              "value_code": "NUMERIC_113296",
+              "value": "113296",
+              "numeric_value": 113296
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "image": {
+        "original": "https://image.migros.ch/original/45b7b229c13e980e6972968415d634e602f424e4/nsw-ice-age-scrats-nussiges-abenteuer-box.jpg",
+        "stack": "https://image.migros.ch/{stack}/45b7b229c13e980e6972968415d634e602f424e4/nsw-ice-age-scrats-nussiges-abenteuer-box.jpg"
+      },
+      "image_transparent": {
+        "original": "https://image.migros.ch/original/df7934e8b43c5c8bae6f0117ab90ab020e381438/nsw-ice-age-scrats-nussiges-abenteuer-box.png",
+        "stack": "https://image.migros.ch/{stack}/df7934e8b43c5c8bae6f0117ab90ab020e381438/nsw-ice-age-scrats-nussiges-abenteuer-box.png"
+      },
+      "internal_features": [
+        {
+          "label_code": "MAPI_RETURNABLE",
+          "label": "Rückgabe",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+          "values": [
+            {
+              "value_code": "BOOLEAN_FALSE",
+              "value": "false",
+              "boolean_value": false
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+          "values": [
+            {
+              "value_code": "55",
+              "value": "Versandart Paket"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_GENERAL_POSITION_GROUP",
+          "values": [
+            {
+              "value_code": "BANS",
+              "value": "Streckenposition"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ARTICLE_VARIETY",
+          "values": [
+            {
+              "value": "HART"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_KUBE_TUKA",
+          "values": [
+            {
+              "value_code": "BLANK",
+              "value": "KUBE und TUKA nicht zugelassen"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_KIND",
+          "values": [
+            {
+              "value_code": "HART",
+              "value": "Hartwaren  Handelsware"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+          "values": [
+            {
+              "value_code": "E",
+              "value": "E"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PRODUCT_GROUP",
+          "values": [
+            {
+              "value_code": "59000",
+              "value": "NINTENDO SWITCH"
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_CUMULUS_POINTS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_2",
+              "value": "2",
+              "numeric_value": 2
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_PROMOTIONS_CODE",
+          "values": [
+            {
+              "value_code": "NUMERIC_1",
+              "value": "1",
+              "numeric_value": 1
+            }
+          ],
+          "top_fact": false
+        },
+        {
+          "label_code": "MAPI_MPN",
+          "values": [
+            {
+              "value_code": "NUMERIC_113296",
+              "value": "113296",
+              "numeric_value": 113296
+            }
+          ],
+          "top_fact": false
+        }
+      ],
+      "vat": {
+        "id": 1,
+        "percentage": 7.7
+      },
+      "links": {
+        "melectronics": {
+          "url": "https://www.melectronics.ch/de/p/785300146076/nsw-ice-age-scrats-nussiges-abenteuer",
+          "name": "melectronics",
+          "canonical": "https://www.melectronics.ch/de/p/785300146076/nsw-ice-age-scrats-nussiges-abenteuer",
+          "type": "shop",
+          "purchasable": false
+        },
+        "migros_ch": {
+          "url": "https://produkte.migros.ch/products/785300146076",
+          "name": "migros.ch",
+          "canonical": "https://www.melectronics.ch/de/p/785300146076/nsw-ice-age-scrats-nussiges-abenteuer",
+          "type": "info",
+          "purchasable": false
+        },
+        "migipedia": {
+          "url": "https://migipedia.migros.ch/de/products/785300146076",
+          "name": "Migipedia",
+          "canonical": "https://www.melectronics.ch/de/p/785300146076/nsw-ice-age-scrats-nussiges-abenteuer",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "updated_at": "2020-08-25T06:18:50+0200",
+      "receipt_text": "Ice Age: Scrats Nussiges Abenteuer [NSW]",
+      "price": {
+        "valid_from": "2020-08-05T00:00:00+0200",
+        "valid_to": "9999-12-31T23:59:59+0100",
+        "currency": "CHF",
+        "source": "PriceRepository",
+        "item": {
+          "price": 39.9,
+          "quantity": 1,
+          "unit": "CU",
+          "varying_quantity": false
+        }
+      },
+      "retailer": {
+        "id": "melectronics",
+        "name": "melectronics"
+      },
+      "eyecatchers": [
+        {
+          "value_code": "MEL_KinderAlterAb_7",
+          "label_code": "mel_kinderalterab_geeignet_ab",
+          "description": "Pegi Alter 3 Geeignet ab MEL Merkmal",
+          "image": {
+            "original": "https://image.migros.ch/original/b9d6c68c5390ea9aea9b99fef0b9ee0fdef6c8cd/MEL_KinderAlterAb_7.jpg",
+            "code": "MEL_KinderAlterAb_7",
+            "description": "Pegi Alter 3 Geeignet ab MEL Merkmal",
+            "stack": "https://image.migros.ch/{stack}/b9d6c68c5390ea9aea9b99fef0b9ee0fdef6c8cd/MEL_KinderAlterAb_7.jpg"
+          }
+        }
+      ],
+      "reindex_date": "9999-12-31T00:00:00+0100"
+    }
+  ]
+}
