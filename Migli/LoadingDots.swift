@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LoadingDots: View {
     
-    @State private var shouldAnimate = false
+    @State public var shouldAnimate: Bool = false
     
     var body: some View {
         HStack {
@@ -35,10 +35,4 @@ struct LoadingDots: View {
         }
     }
     
-}
-
-struct LoadingDots_Previews: PreviewProvider {
-    static var previews: some View {
-            LoadingDots()
-    }
 }
