@@ -31,7 +31,12 @@ struct StartScreen : View {
                         }) {
                             Image("migli-smile")
                                 .renderingMode(.original)
-                        }.padding()
+                        }
+                        .clipShape(Circle())
+                        .overlay(
+                            Circle().stroke(Color.white, lineWidth: 3))
+                            .shadow(radius: 5)
+                            .padding()
                     }
                 }
             }
