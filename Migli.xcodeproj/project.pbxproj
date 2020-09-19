@@ -14,6 +14,7 @@
 		476787C825155F5000E5512F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 476787C725155F5000E5512F /* Experience.rcproject */; };
 		476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476787CC25155F5100E5512F /* Preview Assets.xcassets */; };
 		476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476787CE25155F5100E5512F /* LaunchScreen.storyboard */; };
+		47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FBF52515EA7E0085F3BB /* AssistantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		476787CC25155F5100E5512F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		476787CF25155F5100E5512F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476787D125155F5100E5512F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F7FBF52515EA7E0085F3BB /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				476787CE25155F5100E5512F /* LaunchScreen.storyboard */,
 				476787D125155F5100E5512F /* Info.plist */,
 				476787CB25155F5100E5512F /* Preview Content */,
+				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
 			);
 			path = Migli;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				476787C625155F5000E5512F /* ContentView.swift in Sources */,
 				476787C425155F5000E5512F /* AppDelegate.swift in Sources */,
 				476787C825155F5000E5512F /* Experience.rcproject in Sources */,
+				47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

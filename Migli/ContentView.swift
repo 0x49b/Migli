@@ -41,22 +41,6 @@ struct StartScreen : View {
     }
 }
 
-struct AssistantView: View {
-    @Binding var showAssistantView: Bool
-
-    var body: some View {
-        NavigationView {
-            Text("Migli assistant")
-            .navigationBarTitle(Text("Migli assistant"), displayMode: .inline)
-                .navigationBarItems(trailing: Button(action: {
-                    self.showAssistantView = false
-                }) {
-                    Text("Done").bold()
-                })
-        }
-    }
-}
-
 struct ARViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
