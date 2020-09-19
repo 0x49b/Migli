@@ -44,7 +44,7 @@ struct Term: Codable {
 }
 
 // MARK: - Product
-struct Product: Codable {
+struct Product: Codable, Identifiable {
     let id: String
     let language: Language
     let name, slug, bossNumber: String

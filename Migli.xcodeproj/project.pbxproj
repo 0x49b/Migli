@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174C3E0725163ABA00E85E83 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0625163ABA00E85E83 /* ProductListView.swift */; };
+		174C3E0925163B0C00E85E83 /* ProductStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0825163B0C00E85E83 /* ProductStruct.swift */; };
+		174C3E0B25163B4600E85E83 /* BundleDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0A25163B4600E85E83 /* BundleDecodable.swift */; };
+		174C3E0D25163BA800E85E83 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0C25163BA800E85E83 /* Check.swift */; };
+		174C3E0F25163D1A00E85E83 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 174C3E0E25163D1A00E85E83 /* products.json */; };
 		1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B12515AA86007B7B57 /* migli-smile.png */; };
 		1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B52515ACB4007B7B57 /* Assets.xcassets */; };
-		1792E416251600DB00EDBFDD /* ice_tea.json in Resources */ = {isa = PBXBuildFile; fileRef = 1792E415251600DB00EDBFDD /* ice_tea.json */; };
 		1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E4182516012F00EDBFDD /* LoadingDots.swift */; };
 		1792E41E251604B100EDBFDD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1792E41D251604B100EDBFDD /* Colors.xcassets */; };
 		1792E422251605D600EDBFDD /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E421251605D600EDBFDD /* ColorManager.swift */; };
@@ -23,9 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174C3E0625163ABA00E85E83 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		174C3E0825163B0C00E85E83 /* ProductStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStruct.swift; sourceTree = "<group>"; };
+		174C3E0A25163B4600E85E83 /* BundleDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodable.swift; sourceTree = "<group>"; };
+		174C3E0C25163BA800E85E83 /* Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
+		174C3E0E25163D1A00E85E83 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		1771B2B12515AA86007B7B57 /* migli-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "migli-smile.png"; sourceTree = "<group>"; };
 		1771B2B52515ACB4007B7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1792E415251600DB00EDBFDD /* ice_tea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ice_tea.json; sourceTree = "<group>"; };
 		1792E4182516012F00EDBFDD /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
 		1792E41D251604B100EDBFDD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1792E421251605D600EDBFDD /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 		476787C225155F5000E5512F /* Migli */ = {
 			isa = PBXGroup;
 			children = (
+				174C3E0E25163D1A00E85E83 /* products.json */,
 				476787C325155F5000E5512F /* AppDelegate.swift */,
 				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
 				476787C525155F5000E5512F /* ContentView.swift */,
@@ -82,8 +91,11 @@
 				1792E41D251604B100EDBFDD /* Colors.xcassets */,
 				476787CE25155F5100E5512F /* LaunchScreen.storyboard */,
 				476787D125155F5100E5512F /* Info.plist */,
-				1792E415251600DB00EDBFDD /* ice_tea.json */,
 				476787CB25155F5100E5512F /* Preview Content */,
+				174C3E0625163ABA00E85E83 /* ProductListView.swift */,
+				174C3E0825163B0C00E85E83 /* ProductStruct.swift */,
+				174C3E0A25163B4600E85E83 /* BundleDecodable.swift */,
+				174C3E0C25163BA800E85E83 /* Check.swift */,
 			);
 			path = Migli;
 			sourceTree = "<group>";
@@ -157,9 +169,9 @@
 				476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */,
 				476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */,
 				1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */,
+				174C3E0F25163D1A00E85E83 /* products.json in Resources */,
 				1792E41E251604B100EDBFDD /* Colors.xcassets in Resources */,
 				1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */,
-				1792E416251600DB00EDBFDD /* ice_tea.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,13 +182,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174C3E0725163ABA00E85E83 /* ProductListView.swift in Sources */,
 				1792E4262516071300EDBFDD /* SynthLoaderView.swift in Sources */,
 				476787C625155F5000E5512F /* ContentView.swift in Sources */,
 				476787C425155F5000E5512F /* AppDelegate.swift in Sources */,
+				174C3E0D25163BA800E85E83 /* Check.swift in Sources */,
 				476787C825155F5000E5512F /* Experience.rcproject in Sources */,
 				1792E422251605D600EDBFDD /* ColorManager.swift in Sources */,
 				47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */,
+				174C3E0925163B0C00E85E83 /* ProductStruct.swift in Sources */,
 				1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */,
+				174C3E0B25163B4600E85E83 /* BundleDecodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
