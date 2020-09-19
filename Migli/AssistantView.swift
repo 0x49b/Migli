@@ -13,6 +13,7 @@ struct AssistantView: View {
     @Binding var showAssistantView: Bool
     @State private var inputString: String = ""
     @State var isLongPressing: Bool = false
+    @State var searchResults: [String] = []
     let assistantSynth = AVSpeechSynthesizer()
 
     var body: some View {
@@ -33,7 +34,10 @@ struct AssistantView: View {
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .padding(.horizontal)
                             Button(action: {
-                                print("Button pressed")
+                                let searchText = self.inputString
+                                self.inputString = ""
+                                self.endEditing()
+                                self.searchProduct(searchText: searchText)
                             }) {
                                 Image(systemName: "magnifyingglass")
                             }
@@ -71,7 +75,10 @@ struct AssistantView: View {
                         }.padding(.vertical)
                     }
                 }.padding()
-                Spacer()
+                // Spacer()
+                List(searchResults) { result in
+                    Text(result)
+                }
             }
             .navigationBarTitle(Text("Migli"), displayMode: .inline)
                 .navigationBarItems(trailing: Button(action: {
@@ -100,10 +107,39 @@ struct AssistantView: View {
         
         assistantSynth.speak(utterance)
     }
+    
+    private func searchProduct(searchText: String) {
+        
+        self.searchResults.removeAll()
+        
+        if let path = Bundle.main.path(forResource: "products", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                if let jsonResult = jsonResult as? [String:Any], let products = jsonResult["products"] as? [[String:Any]] {
+                    products.forEach { product in
+                        self.searchResults.append(product["name"] as! String)
+                    }
+                }
+            } catch {
+                // handle error
+            }
+        }
+    }
+    
+    private func endEditing() {
+        UIApplication.shared.endEditing()
+    }
 }
 
-struct AssistantView_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+extension String: Identifiable {
+    public var id: String {
+        return self
+    }
+}
+
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
