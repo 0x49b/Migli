@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1771B2AE2515AA5E007B7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2AD2515AA5E007B7B57 /* Assets.xcassets */; };
+		1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B12515AA86007B7B57 /* migli-smile.png */; };
 		476787C425155F5000E5512F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476787C325155F5000E5512F /* AppDelegate.swift */; };
 		476787C625155F5000E5512F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476787C525155F5000E5512F /* ContentView.swift */; };
 		476787C825155F5000E5512F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 476787C725155F5000E5512F /* Experience.rcproject */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1771B2AD2515AA5E007B7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1771B2B12515AA86007B7B57 /* migli-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "migli-smile.png"; sourceTree = "<group>"; };
 		476787C025155F5000E5512F /* Migli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476787C325155F5000E5512F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476787C525155F5000E5512F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		476787B725155F5000E5512F = {
 			isa = PBXGroup;
 			children = (
+				1771B2B12515AA86007B7B57 /* migli-smile.png */,
 				476787C225155F5000E5512F /* Migli */,
 				476787C125155F5000E5512F /* Products */,
 			);
@@ -136,6 +139,7 @@
 				476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */,
 				1771B2AE2515AA5E007B7B57 /* Assets.xcassets in Resources */,
 				476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */,
+				1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
