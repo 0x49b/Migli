@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LoadingDots: View {
     
-    @State private var shouldAnimate = false
+    @Binding public var shouldAnimate: Bool
     
     var body: some View {
         HStack {
@@ -18,27 +18,21 @@ struct LoadingDots: View {
                 .fill(ColorManager.migrosOrange)
                 .frame(width: 20, height: 20)
                 .scaleEffect(shouldAnimate ? 1.0 : 0.5)
-                .animation(Animation.easeInOut(duration: 0.5).repeatForever())
+                .animation(shouldAnimate ? Animation.easeInOut(duration: 0.5).repeatForever() : Animation.default)
             Circle()
                 .fill(ColorManager.migrosOrange)
                 .frame(width: 20, height: 20)
                 .scaleEffect(shouldAnimate ? 1.0 : 0.5)
-                .animation(Animation.easeInOut(duration: 0.5).repeatForever().delay(0.3))
+                .animation(shouldAnimate ? Animation.easeInOut(duration: 0.5).repeatForever().delay(0.3) : Animation.default)
             Circle()
                 .fill(ColorManager.migrosOrange)
                 .frame(width: 20, height: 20)
                 .scaleEffect(shouldAnimate ? 1.0 : 0.5)
-                .animation(Animation.easeInOut(duration: 0.5).repeatForever().delay(0.6))
+                .animation(shouldAnimate ? Animation.easeInOut(duration: 0.5).repeatForever().delay(0.6) : Animation.default)
         }
         .onAppear {
-            self.shouldAnimate = true
+            // self.shouldAnimate = true
         }
     }
     
-}
-
-struct LoadingDots_Previews: PreviewProvider {
-    static var previews: some View {
-            LoadingDots()
-    }
 }
