@@ -22,6 +22,8 @@ struct StartScreen : View {
         NavigationView {
             ZStack {
                 
+                LoadingDots()
+                
                 VStack(alignment:.trailing) {
                     Spacer()
                     HStack {
