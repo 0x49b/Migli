@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1749FA952516F3BD0025C3E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1749FA942516F3BD0025C3E9 /* README.md */; };
 		174C3E0725163ABA00E85E83 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0625163ABA00E85E83 /* ProductListView.swift */; };
 		174C3E0925163B0C00E85E83 /* ProductStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0825163B0C00E85E83 /* ProductStruct.swift */; };
 		174C3E0B25163B4600E85E83 /* BundleDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C3E0A25163B4600E85E83 /* BundleDecodable.swift */; };
@@ -42,7 +41,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1749FA942516F3BD0025C3E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../Desktop/Migli/README.md; sourceTree = "<group>"; };
 		174C3E0625163ABA00E85E83 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		174C3E0825163B0C00E85E83 /* ProductStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStruct.swift; sourceTree = "<group>"; };
 		174C3E0A25163B4600E85E83 /* BundleDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodable.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		476787B725155F5000E5512F = {
 			isa = PBXGroup;
 			children = (
-				1749FA942516F3BD0025C3E9 /* README.md */,
 				174C3E1C2516627F00E85E83 /* Podfile */,
 				1771B2B12515AA86007B7B57 /* migli-smile.png */,
 				476787C225155F5000E5512F /* Migli */,
@@ -265,7 +262,6 @@
 				174C3E1B25165F3A00E85E83 /* migli_font.png in Resources */,
 				174C6F162517205B0028A092 /* ms.png in Resources */,
 				1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */,
-				1749FA952516F3BD0025C3E9 /* README.md in Resources */,
 				174C6F1425171FF10028A092 /* ms.svg in Resources */,
 				174C3E1D2516627F00E85E83 /* Podfile in Resources */,
 			);
