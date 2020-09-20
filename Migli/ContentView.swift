@@ -20,6 +20,7 @@ struct ContentView : View {
 struct StartScreen : View {
     @State var showAssistantView = false
     @State var isActive = false
+    @State var isAnimating = false
     
     var body: some View {
         NavigationView {
