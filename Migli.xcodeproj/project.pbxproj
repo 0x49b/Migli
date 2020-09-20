@@ -24,6 +24,7 @@
 		174C6F1A2517220B0028A092 /* ai.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C6F192517220B0028A092 /* ai.png */; };
 		174C6F21251729200028A092 /* aright.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C6F1F251729200028A092 /* aright.png */; };
 		174C6F22251729200028A092 /* atop.png in Resources */ = {isa = PBXBuildFile; fileRef = 174C6F20251729200028A092 /* atop.png */; };
+		174C6F242517338F0028A092 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 174C6F232517338F0028A092 /* README.md */; };
 		1771B2B22515AA86007B7B57 /* migli-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B12515AA86007B7B57 /* migli-smile.png */; };
 		1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771B2B52515ACB4007B7B57 /* Assets.xcassets */; };
 		1792E4192516012F00EDBFDD /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792E4182516012F00EDBFDD /* LoadingDots.swift */; };
@@ -58,6 +59,7 @@
 		174C6F192517220B0028A092 /* ai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ai.png; sourceTree = "<group>"; };
 		174C6F1F251729200028A092 /* aright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aright.png; sourceTree = "<group>"; };
 		174C6F20251729200028A092 /* atop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atop.png; sourceTree = "<group>"; };
+		174C6F232517338F0028A092 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1771B2B12515AA86007B7B57 /* migli-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "migli-smile.png"; sourceTree = "<group>"; };
 		1771B2B52515ACB4007B7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1792E4182516012F00EDBFDD /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		476787B725155F5000E5512F = {
 			isa = PBXGroup;
 			children = (
+				174C6F232517338F0028A092 /* README.md */,
 				174C3E1C2516627F00E85E83 /* Podfile */,
 				1771B2B12515AA86007B7B57 /* migli-smile.png */,
 				476787C225155F5000E5512F /* Migli */,
@@ -253,6 +256,7 @@
 				174C6F1A2517220B0028A092 /* ai.png in Resources */,
 				476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */,
 				1771B2B62515ACB4007B7B57 /* Assets.xcassets in Resources */,
+				174C6F242517338F0028A092 /* README.md in Resources */,
 				174C3E0F25163D1A00E85E83 /* products.json in Resources */,
 				174C6F1225171C9A0028A092 /* migli_eyebrows_raise.gif in Resources */,
 				174C6F21251729200028A092 /* aright.png in Resources */,
