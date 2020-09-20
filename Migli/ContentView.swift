@@ -8,6 +8,8 @@
 
 import SwiftUI
 import RealityKit
+import SDWebImageSwiftUI
+
 
 struct ContentView : View {
     var body: some View {
@@ -17,32 +19,49 @@ struct ContentView : View {
 
 struct StartScreen : View {
     @State var showAssistantView = false
+    @State var isAnimating = true
     
     var body: some View {
         NavigationView {
             ZStack {
                 
+    
+                randomMigli()
+            
                 VStack(alignment:.trailing) {
+
                     Spacer()
                     HStack {
                         Spacer()
                         Button(action: {
                             self.showAssistantView.toggle()
                         }) {
-                            Image("migli-smile")
-                                .renderingMode(.original)
+                             Image("migli-smile")
+                             .renderingMode(.original)
                         }
                         .clipShape(Circle())
                         .overlay(
                             Circle().stroke(Color.white, lineWidth: 3))
                             .shadow(radius: 5)
                             .padding()
+                        
                     }
                 }
             }
         }.sheet(isPresented: $showAssistantView) {
             AssistantView(showAssistantView: self.$showAssistantView)
         }
+    }
+    
+    private func randomMigli() -> WebImage{
+        
+        let miglis = ["migli_blink","migli_eyebrows_raise","migli_look_around","migli_surprised","migli_wiggle"]
+        let randomMigliIndex = Int.random(in: 0..<5)
+        
+        return WebImage(url: Bundle.main.url(forResource: miglis[randomMigliIndex], withExtension: "gif"), isAnimating: $isAnimating)
+            .customLoopCount(1)
+            .playbackRate(2.0)
+            .resizable()
     }
 }
 
