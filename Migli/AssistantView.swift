@@ -53,7 +53,7 @@ struct AssistantView: View {
                                 self.endEditing()
                                 self.searchProduct(searchText: searchText)
                             }) {
-                                Image(systemName: "magnifyingglass")
+                                Image(systemName: "magnifyingglass").font(.system(size: 25))
                             }
                             .foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
                         }
@@ -77,7 +77,7 @@ struct AssistantView: View {
                                     print("long press stop")
                                 }
                             }) {
-                                Image(systemName: "mic.fill")
+                                Image(systemName: "mic.fill").font(.system(size:25))
                             }
                             .foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
                             .simultaneousGesture(

@@ -24,9 +24,6 @@ struct StartScreen : View {
     var body: some View {
         NavigationView {
             ZStack {
-                
-    
-                randomMigli()
             
                 VStack(alignment:.trailing) {
 
@@ -36,8 +33,7 @@ struct StartScreen : View {
                         Button(action: {
                             self.showAssistantView.toggle()
                         }) {
-                             Image("migli-smile")
-                             .renderingMode(.original)
+                            randomMigli().frame(width:50, height:50)
                         }
                         .clipShape(Circle())
                         .overlay(
