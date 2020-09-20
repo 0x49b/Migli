@@ -8,6 +8,8 @@
 
 import SwiftUI
 import RealityKit
+import SDWebImageSwiftUI
+
 
 struct ContentView : View {
     var body: some View {
@@ -21,8 +23,6 @@ struct StartScreen : View {
     
     var body: some View {
         NavigationView {
-            
-            
             ZStack {
                 NavigationLink(destination: VideoPlayer(), isActive: self.$isActive) {
                     EmptyView()
@@ -52,8 +52,17 @@ struct StartScreen : View {
         }) {
             AssistantView(showAssistantView: self.$showAssistantView, showNavigationView: self.$isActive)
         }
+    }
+    
+    private func randomMigli() -> WebImage{
         
+        let miglis = ["migli_blink","migli_eyebrows_raise","migli_look_around","migli_surprised","migli_wiggle"]
+        let randomMigliIndex = Int.random(in: 0..<5)
         
+        return WebImage(url: Bundle.main.url(forResource: miglis[randomMigliIndex], withExtension: "gif"), isAnimating: $isAnimating)
+            .customLoopCount(1)
+            .playbackRate(2.0)
+            .resizable()
     }
 }
 
