@@ -30,6 +30,7 @@
 		476787CD25155F5100E5512F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476787CC25155F5100E5512F /* Preview Assets.xcassets */; };
 		476787D025155F5100E5512F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476787CE25155F5100E5512F /* LaunchScreen.storyboard */; };
 		47F7FBF62515EA7E0085F3BB /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FBF52515EA7E0085F3BB /* AssistantView.swift */; };
+		47F7FBFA2516CDF60085F3BB /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FBF92516CDF60085F3BB /* VideoPlayer.swift */; };
 		554A5673DBFA9D40CB73324D /* Pods_Migli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C0AAB86F3B9ABAE5EEB833 /* Pods_Migli.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		476787CF25155F5100E5512F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476787D125155F5100E5512F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F7FBF52515EA7E0085F3BB /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
+		47F7FBF92516CDF60085F3BB /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		6DD27F60EBBA714286B4AA39 /* Pods-Migli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migli.debug.xcconfig"; path = "Target Support Files/Pods-Migli/Pods-Migli.debug.xcconfig"; sourceTree = "<group>"; };
 		D5C0AAB86F3B9ABAE5EEB833 /* Pods_Migli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Migli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08295B794856B0CC21993CD /* Pods-Migli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Migli.release.xcconfig"; path = "Target Support Files/Pods-Migli/Pods-Migli.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				174C3E0E25163D1A00E85E83 /* products.json */,
 				476787C325155F5000E5512F /* AppDelegate.swift */,
 				47F7FBF52515EA7E0085F3BB /* AssistantView.swift */,
+				47F7FBF92516CDF60085F3BB /* VideoPlayer.swift */,
 				476787C525155F5000E5512F /* ContentView.swift */,
 				1792E4182516012F00EDBFDD /* LoadingDots.swift */,
 				1792E4252516071300EDBFDD /* SynthLoaderView.swift */,
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F7FBFA2516CDF60085F3BB /* VideoPlayer.swift in Sources */,
 				174C3E0725163ABA00E85E83 /* ProductListView.swift in Sources */,
 				1792E4262516071300EDBFDD /* SynthLoaderView.swift in Sources */,
 				476787C625155F5000E5512F /* ContentView.swift in Sources */,

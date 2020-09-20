@@ -11,6 +11,7 @@ import AVFoundation
 
 struct AssistantView: View {
     @Binding var showAssistantView: Bool
+    @Binding var showNavigationView: Bool
     @State private var inputString: String = ""
     @State var isLongPressing: Bool = false
     @State var searchResults: [String] = []
@@ -76,8 +77,19 @@ struct AssistantView: View {
                     }
                 }.padding()
                 // Spacer()
-                List(searchResults) { result in
-                    Text(result)
+                List{
+                    ForEach(searchResults) { result in
+                        HStack {
+                            Text(result)
+                            Spacer()
+                            Button(action: {
+                                self.showAssistantView = false
+                                self.showNavigationView = true
+                            }) {
+                                Image(systemName: "flag.circle")
+                            }.foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("Migli"), displayMode: .inline)

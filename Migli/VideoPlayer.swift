@@ -9,6 +9,15 @@
 import AVKit
 import SwiftUI
 
+struct VideoPlayer: View {
+    
+    var body: some View {
+        PlayerView()
+            .navigationBarTitle("Navigation", displayMode: .inline)
+            .foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
+    }
+}
+
 struct PlayerView: UIViewRepresentable {
     func updateUIView (_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) {
     }

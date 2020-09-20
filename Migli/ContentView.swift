@@ -17,10 +17,16 @@ struct ContentView : View {
 
 struct StartScreen : View {
     @State var showAssistantView = false
+    @State var isActive = false
     
     var body: some View {
         NavigationView {
+            
+            
             ZStack {
+                NavigationLink(destination: VideoPlayer(), isActive: self.$isActive) {
+                    EmptyView()
+                }.hidden()
                 
                 VStack(alignment:.trailing) {
                     Spacer()
@@ -40,9 +46,14 @@ struct StartScreen : View {
                     }
                 }
             }
-        }.sheet(isPresented: $showAssistantView) {
-            AssistantView(showAssistantView: self.$showAssistantView)
+            .foregroundColor(Color("MigrosOrange"))
+        }.sheet(isPresented: $showAssistantView, onDismiss: {
+            print("dismiss")
+        }) {
+            AssistantView(showAssistantView: self.$showAssistantView, showNavigationView: self.$isActive)
         }
+        
+        
     }
 }
 
