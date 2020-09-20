@@ -13,7 +13,7 @@ struct VideoPlayer: View {
     
     var body: some View {
         PlayerView()
-            .navigationBarTitle("Navigation", displayMode: .inline)
+            .navigationBarTitle("Product Finder", displayMode: .inline)
             .foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
     }
 }
