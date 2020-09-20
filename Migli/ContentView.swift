@@ -28,9 +28,15 @@ struct StartScreen : View {
                 NavigationLink(destination: VideoPlayer(), isActive: self.$isActive) {
                     EmptyView()
                 }.hidden()
-                
-                VStack(alignment:.trailing) {
+               
+                VStack {
+                    
+                    HStack{
+                        Image("ai").resizable().padding(.trailing).frame(width:300,height:300)
+                    }
+                    
                     Spacer()
+                 
                     HStack {
                         Spacer()
                         Button(action: {
@@ -54,17 +60,7 @@ struct StartScreen : View {
             AssistantView(showAssistantView: self.$showAssistantView, showNavigationView: self.$isActive)
         }
     }
-    
-    private func randomMigli() -> WebImage{
-        
-        let miglis = ["migli_blink","migli_eyebrows_raise","migli_look_around","migli_surprised","migli_wiggle"]
-        let randomMigliIndex = Int.random(in: 0..<5)
-        
-        return WebImage(url: Bundle.main.url(forResource: miglis[randomMigliIndex], withExtension: "gif"), isAnimating: $isAnimating)
-            .customLoopCount(1)
-            .playbackRate(2.0)
-            .resizable()
-    }
+
 }
 
 

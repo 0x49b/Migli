@@ -13,25 +13,28 @@ import SDWebImageSwiftUI
 struct AssistantView: View {
     @Binding var showAssistantView: Bool
     @Binding var showNavigationView: Bool
+    
     @State private var inputString: String = ""
     @State var isLongPressing: Bool = false
     @State var searchResults: [String] = []
-     @State var isAnimating: Bool = false
-     @State var lastScale: CGFloat = 1.0
-     @State var scale: CGFloat = 1.0
+    
+    @State var isAnimating: Bool = true
+    @State var lastScale: CGFloat = 1.0
+    @State var scale: CGFloat = 1.0
 
      
      
      let assistantSynth = AVSpeechSynthesizer()
      let assetURL = Bundle.main.url(forResource: "migli_intro_speech", withExtension: "gif")
 
+
     var body: some View {
         NavigationView {
             VStack{
                 
-                WebImage(url: Bundle.main.url(forResource: "migli_blink", withExtension: "gif"))
-                .customLoopCount(1)
-                .playbackRate(2.0)
+                 WebImage(url: Bundle.main.url(forResource: "migli_intro_speech", withExtension: "gif"), isAnimating: $isAnimating)
+                .customLoopCount(2)
+                .playbackRate(1.5)
                 .resizable()
                 .scaledToFit()
                 .background(Color.white)
@@ -118,7 +121,9 @@ struct AssistantView: View {
     
     private func greeting() {
         let greet = "Hello, I'm Migli, your virtual Migro assistant. How can I help you?"
+    
         self.speech(text: greet)
+    
     }
     
     private func disappear(){

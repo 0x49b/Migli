@@ -11,10 +11,40 @@ import SwiftUI
 
 struct VideoPlayer: View {
     
+    let top = false
+    let atop = Image("atop")
+    let aright = Image("aright")
+    
+    @State var isSoundOn: Bool = true
+    
     var body: some View {
+        ZStack{
+            
         PlayerView()
             .navigationBarTitle("Product Finder", displayMode: .inline)
             .foregroundColor(/*@START_MENU_TOKEN@*/Color("MigrosOrange")/*@END_MENU_TOKEN@*/)
+            
+            
+            Image(isSoundOn ? "atop" : "aright").resizable().frame(width:200, height:200).onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+                self.isSoundOn = false
+            }
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                    self.isSoundOn = true
+                }
+            
+          
+            }
+            
+       
+            
+          
+        }
+        
+  
+        
+        
     }
 }
 
